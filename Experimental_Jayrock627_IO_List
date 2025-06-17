@@ -32,15 +32,6 @@ reddit.com###community-status-bottom-sheet
 ! Feb 3, 2025 https://qbo.intuit.com
 ||protoolsmainstorage.blob.core.windows.net/adstorage/Tax1099_Righttool.gif$image
 
-! QuickBooks
-||logging.api.intuit.com/v2/log/message^
-||eventbus.intuit.com/v2/segment/sbseg-qbo-clickstream/*
-||eventbus.intuit.com/v2/intuit-clickstream^
-||rum.api.intuit.com/vl/rum/web^
-||rum.api.intuit.com/vl/trace^
-||zion.qbo.intuit.com/api/vl/logs^
-||uxfabric.intuitcdn.net/dtc/prod/expenses-forms-ui/*/expenses-forms-ui/expense/*/config.json^
-
 ! Feb 4, 2025 https://www.reddit.com
 www.reddit.com###right-sidebar-container
 www.reddit.com###left-sidebar
@@ -89,25 +80,6 @@ reddit.com##community-achievements-flair
 
 ! March 24, 2025 reddit.com (Might break some website / get flagged as bot)
 https://www.reddit.com/svc/shreddit/update*
-
-! March 24, 2025
-! Dont Use these
-! ||redditstatic.com/shreddit/en-US/shell-*.js
-! ||redditstatic.com/shreddit/en-US/icon-*.js
-! ||redditstatic.com/shreddit/en-US/club-award-confirmation-client-js-*.js
-! ||redditstatic.com/shreddit/en-US/partial-feed-post-client-js-*.js
-! ||redditstatic.com/shreddit/en-US/tooltip.base-*.js
-! ||redditstatic.com/shreddit/en-US/errors-*.js
-! ||redditstatic.com/shreddit/en-US/community-club-highlights-client-js-*.js
-! ||redditstatic.com/shreddit/en-US/index-*.js
-! ||||redditstatic.com/shreddit/en-US/community-colors-*.js (Remove logout menu)
-! ||redditstatic.com/shreddit/en-US/awardsTelemetryState-*.js
-! ||redditstatic.com/shreddit/en-US/feed-post-client-js-54ddfa6c.js (Causes Post UI button to remove)
-! |||redditstatic.com/shreddit/en-US/comment-forest-client-js-e276f9e2.js (Breaks ability to see comments)
-! ||redditstatic.com/shreddit/en-US/home-feed-client-js-81711a05.js (Breaks home feed posts)
-! ||redditstatic.com/shreddit/en-US/deprecated-content-client-js-a830e56b.js (Remove ability to click to see NSFa)
-! ||redditstatic.com/shreddit/en-US/search-input-desktop-client-js-3d108ac7.js (Makes post comments disappear)
-! ||redditstatic.com/shreddit/en-US/user-hover-card-client-js-f34cf493.js (Interact with posts disappear)
 
 ! March 24, 2025 reddit.com
 ||redditstatic.com/shreddit/en-US/timer-*.js
@@ -181,23 +153,18 @@ reddit.com###xpromo-bottom-sheet > div
 ! Mar 28, 2025 https://www.reddit.com
 ||redditstatic.com/shreddit/en-US/comment-composer-fragment-client-js-0a7c9412.js
 ||redditstatic.com/shreddit/en-US/comment-composer-host-f97e0510.js
-
 ||redditstatic.com/shreddit/en-US/community-spotlight-carousel-client-js-d687acfa.js
 ||redditstatic.com/shreddit/en-US/compact-post-community-recommendations-carousel-client-js-f617fc02.js
 ||redditstatic.com/shreddit/en-US/dsa-transparency-modal-provider-client-js-f088dd96.js
-
 ||redditstatic.com/shreddit/en-US/header-action-item-user-drawer-client-js-bcef072c.js
 ||redditstatic.com/shreddit/en-US/header-small-client-js-292e52d8.js
-
 ||redditstatic.com/shreddit/en-US/hui-grid-client-js-ba1b03c0.js
 ||redditstatic.com/shreddit/en-US/hui-helpers-client-js-6b72867d.js
 ||redditstatic.com/shreddit/en-US/hui-translation-button-client-js-f62cfcfa.js
-
 ||redditstatic.com/shreddit/en-US/index-logged-in-9c726b41.js
 ||redditstatic.com/shreddit/en-US/mod-removal-reason-form-client-js-ea0567a7.js
 ||redditstatic.com/shreddit/en-US/multi-content-reporting-client-js-73c6271f.js
 ||redditstatic.com/shreddit/en-US/notifications-inbox-client-js-675e6ffe.js
-
 ||redditstatic.com/shreddit/en-US/pdp-right-rail-content-client-js-db843e16.js
 ||redditstatic.com/shreddit/en-US/pdp-client-js-fa722bf5.js
 ||redditstatic.com/shreddit/en-US/pdp-post-client-js-3c714c9d.js
@@ -215,7 +182,6 @@ reddit.com###xpromo-bottom-sheet > div
 ||redditstatic.com/shreddit/en-US/mod-inline-actions-client-js-de69849c.js
 ||redditstatic.com/shreddit/en-US/subreddit-header-client-js-c0f76241.js
 ||redditstatic.com/shreddit/en-US/subreddit-posting-eligibility-modal-content-client-js-61671c7e.js
-
 ||redditstatic.com/shreddit/en-US/unpacking-overflow-menu-24739e62.js
 ||redditstatic.com/shreddit/en-US/user-mod-actions-a126a0d2.js
 ||redditstatic.com/shreddit/en-US/viral-community-client-js-dc802663.js
