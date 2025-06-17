@@ -1,0 +1,225 @@
+reddit.com##[id]:remove-attr(id)
+reddit.com##[is-user-logged-in]:remove-attr(is-user-logged-in)
+reddit.com##[user-logged-in]:remove-attr(user-logged-in)
+
+! Oct 12, 2024 https://www.
+reddit.com##[is-user-logged-in]:remove-attr(is-user-logged-in)
+reddit.com##[user-logged-in]:remove-attr(user-logged-in)
+www.reddit.com##.xs\:overflow-x-hidden.xs\:overflow-y-auto.xs\:max-h-\[calc\(100vh-var\(--shreddit-header-height\)-1px\)\].xs\:top-\[56px\].xs\:sticky.styled-scrollbars.s\:block.hidden.min-w-\[316px\].w-\[316px\].right-sidebar
+www.reddit.com##.w-full.masthead
+reddit.com##.main:remove-class(right-sidebar-s)
+reddit.com##body > shreddit-app > div.grid-container.theme-rpl.grid.grid-cols-1.m\:grid-cols-\[272px_1fr\]:remove-attr(class)
+
+! March 24, 2025
+redditmedia.com/styles/*
+redditstatic.com/marketplace-assets*
+emoji.redditmedia.com*
+redd.it/snoov*
+reddit.com##shreddit-post-share-button
+reddit.com##award-button
+reddit.com##shreddit-join-button
+reddit.com##shreddit-comment-share-button
+reddit.com##shreddit-overflow-menu
+reddit.com###signup-drawer
+reddit.com###unpacked-actions > button:nth-child(2)
+reddit.com###unpacked-actions > button:nth-child(4)
+reddit.com###unpacked-actions > button:nth-child(3)
+||reddit.com/svc/shreddit/partial/*/signup-drawer?actionSource=auth_prompt
+reddit.com###alert-controller
+||redditstatic.com/shreddit/en-US/alert-controller-client-js-*.js
+reddit.com###community-status-bottom-sheet
+
+! Feb 3, 2025 https://qbo.intuit.com
+||protoolsmainstorage.blob.core.windows.net/adstorage/Tax1099_Righttool.gif$image
+
+! QuickBooks
+||logging.api.intuit.com/v2/log/message^
+||eventbus.intuit.com/v2/segment/sbseg-qbo-clickstream/*
+||eventbus.intuit.com/v2/intuit-clickstream^
+||rum.api.intuit.com/vl/rum/web^
+||rum.api.intuit.com/vl/trace^
+||zion.qbo.intuit.com/api/vl/logs^
+||uxfabric.intuitcdn.net/dtc/prod/expenses-forms-ui/*/expenses-forms-ui/expense/*/config.json^
+
+! Feb 4, 2025 https://www.reddit.com
+www.reddit.com###right-sidebar-container
+www.reddit.com###left-sidebar
+www.reddit.com###get-app
+www.reddit.com###left-sidebar-container
+www.reddit.com##.xs\:mr-sm.mr-xs.my-2xs.items-center.flex
+
+! March 24, 2025 reddit.com
+||redditmedia.com/styles/*
+||redditstatic.com/marketplace-assets*
+||redd.it/snoov*
+||styles.redditmedia.com/t5_*/styles/prof*
+||redditstatic.com/shreddit/assets/avatar_over18.png
+reddit.com##shreddit-post-share-button
+reddit.com##award-button
+reddit.com##shreddit-join-button
+reddit.com##shreddit-comment-share-button
+reddit.com##shreddit-overflow-menu
+reddit.com###signup-drawer
+reddit.com###unpacked-actions > button:nth-child(2)
+reddit.com###unpacked-actions > button:nth-child(4)
+reddit.com###unpacked-actions > button:nth-child(3)
+||reddit.com/svc/shreddit/partial/*/signup-drawer?actionSource=auth_prompt
+reddit.com###alert-controller
+||redditstatic.com/shreddit/en-US/alert-controller-client-js-*.js
+||emoji.redditmedia.com/*_t5_*/
+||emoji.redditmedia.com/*/
+||emoji.redditmedia.com*
+||redditstatic.com/avatars/defaults/v2/avatar_default_3.png$image
+
+! March 24, 2025 reddit.com
+reddit.com###community-status-bottom-sheet
+reddit.com###xpromo-bottom-sheet
+reddit.com###body > shreddit-app > faceplate-partial:nth-child(60)
+reddit.com###main-content > faceplate-partial.block.min-h-screen.xs\:min-h-\[20rem\]
+
+! March 24, 2025 reddit.com (One of these effect the ability to comment on main post)
+||redditstatic.com/shreddit/en-US/lexi*
+
+! March 24, 2025 reddit.com
+||google.com/gsi/client^$domain=reddit.com
+||redditstatic.com/shreddit/en-US/search-results-scoped-sidebar-client-js-*.js
+||redditstatic.com/shreddit/en-US/pixels-*.js
+||redditstatic.com/shreddit/en-US/flair-editor-*.js
+reddit.com##community-achievements-flair
+
+! March 24, 2025 reddit.com (Might break some website / get flagged as bot)
+https://www.reddit.com/svc/shreddit/update*
+
+! March 24, 2025
+! Dont Use these
+! ||redditstatic.com/shreddit/en-US/shell-*.js
+! ||redditstatic.com/shreddit/en-US/icon-*.js
+! ||redditstatic.com/shreddit/en-US/club-award-confirmation-client-js-*.js
+! ||redditstatic.com/shreddit/en-US/partial-feed-post-client-js-*.js
+! ||redditstatic.com/shreddit/en-US/tooltip.base-*.js
+! ||redditstatic.com/shreddit/en-US/errors-*.js
+! ||redditstatic.com/shreddit/en-US/community-club-highlights-client-js-*.js
+! ||redditstatic.com/shreddit/en-US/index-*.js
+! ||||redditstatic.com/shreddit/en-US/community-colors-*.js (Remove logout menu)
+! ||redditstatic.com/shreddit/en-US/awardsTelemetryState-*.js
+! ||redditstatic.com/shreddit/en-US/feed-post-client-js-54ddfa6c.js (Causes Post UI button to remove)
+! |||redditstatic.com/shreddit/en-US/comment-forest-client-js-e276f9e2.js (Breaks ability to see comments)
+! ||redditstatic.com/shreddit/en-US/home-feed-client-js-81711a05.js (Breaks home feed posts)
+! ||redditstatic.com/shreddit/en-US/deprecated-content-client-js-a830e56b.js (Remove ability to click to see NSFa)
+! ||redditstatic.com/shreddit/en-US/search-input-desktop-client-js-3d108ac7.js (Makes post comments disappear)
+! ||redditstatic.com/shreddit/en-US/user-hover-card-client-js-f34cf493.js (Interact with posts disappear)
+
+! March 24, 2025 reddit.com
+||redditstatic.com/shreddit/en-US/timer-*.js
+||redditstatic.com/avatars/defaults/v2/avatar_default_*.png
+||ad-delivery.net*
+
+! March 24, 2025 reddit.com (Disables community icons)
+||styles.redditmedia.com/*/styles/comm*
+www.reddit.com##.h-\[1\.5rem\].w-\[1\.5rem\].justify-center.items-center.inline-flex
+
+! March 24, 2025 reddit.com (User Post Emoji)
+www.reddit.com##.ml-xs.inline-flex.nd\:hidden
+
+! March 24, 2025 reddit.com (Reddit Loading Icon)
+reddit.com##shreddit-feed-page-loading
+
+! Mar 28, 2025 https://www.reddit.com
+www.reddit.com##.relative.justify-end.flex-1.items-center.flex > .block.nd\:visible
+www.reddit.com###expand-search-button
+||styles.redditmedia.com/t5_*/styles/profileIcon_snoo*-headshot*.png*
+||preview.redd.it/snoovatar/avatars/nftv2*
+www.reddit.com##.min-h-\[2rem\].min-w-\[2rem\].h-\[2rem\].w-\[2rem\].relative.inline-flex
+www.reddit.com##.shrink-0.text-48.h-2xl.w-2xl.xs\:h-\[88px\].xs\:w-\[88px\]
+www.reddit.com##.h-xl.w-xl.indent-0.flex-shrink-0.overflow-hidden.items-center.text-32.avatar
+www.reddit.com##.rte-media
+||www.redditstatic.com/shreddit/assets/illustrations/cake-day.svg$image
+||reddit.com/svc/shreddit/user-drawer-button-logged-in
+||reddit.com/svc/shreddit/token
+||gql-realtime.reddit.com/query
+||redditstatic.com/shreddit/en-US/feed-ad-client-*.js
+
+! Below to March 28th one of these broke comment reply & settings menu (not comment post that is above)
+
+! Mar 28, 2025 https://www.reddit.com 
+||reddit.com/svc/shreddit/styling-overrides/?cont*
+||reddit.com/svc/shreddit/header-action-item-inbox?render-mode=partial
+www.reddit.com##.gap-x-xs.items-center.flex > faceplate-tracker.nd\:visible:nth-of-type(1)
+||redditstatic.com/shreddit/en-US/devvit-context-actions-db108cfb.js
+
+! Mar 28, 2025 https://www.reddit.com
+www.reddit.com##.relative.justify-end.flex-1.items-center.flex > .block.nd\:visible
+www.reddit.com###expand-search-button
+||styles.redditmedia.com/t5_*/styles/profileIcon_snoo*-headshot*.png*
+||preview.redd.it/snoovatar/avatars/nftv2*
+www.reddit.com##.min-h-\[2rem\].min-w-\[2rem\].h-\[2rem\].w-\[2rem\].relative.inline-flex
+www.reddit.com##.shrink-0.text-48.h-2xl.w-2xl.xs\:h-\[88px\].xs\:w-\[88px\]
+www.reddit.com##.h-xl.w-xl.indent-0.flex-shrink-0.overflow-hidden.items-center.text-32.avatar
+www.reddit.com##.rte-media
+||www.redditstatic.com/shreddit/assets/illustrations/cake-day.svg$image
+||reddit.com/svc/shreddit/user-drawer-button-logged-in
+||reddit.com/svc/shreddit/token
+||gql-realtime.reddit.com/query
+||redditstatic.com/shreddit/en-US/feed-ad-client-*.js
+
+! Mar 28, 2025 https://www.reddit.com
+||reddit.com/svc/shreddit/styling-overrides/?cont*
+||reddit.com/svc/shreddit/header-action-item-inbox?render-mode=partial
+www.reddit.com##.gap-x-xs.items-center.flex > faceplate-tracker.nd\:visible:nth-of-type(1)
+||www.reddit.com/svc/shreddit/events
+||redditstatic.com/shreddit/en-US/devvit-context-actions-db108cfb.js
+
+! Mar 28, 2025 https://www.reddit.com
+||reddit.com/svc/shreddit/pdp-right-rail/relate*
+||reddit.com/svc/shreddit/subreddit-posting-eligibility-modal*
+||redditstatic.com/shreddit/en-US/shreddit-comment-share-button-*.js
+www.reddit.com##.border-neutral-border-weak.border.border-solid.text-secondary.leading-4.rounded-\[20px\].px-\[6px\].box-border.align-text-bottom.font-normal.text-12.max-w-full.truncate.inline-block.bg-tone-4
+reddit.com###xpromo-bottom-sheet > div
+||redditstatic.com/shreddit/en-US/pdp-ad-client-js-361e96b2.js
+||redditstatic.com/shreddit/en-US/community-author-flair-client-js-3438702e.js
+
+! Mar 28, 2025 https://www.reddit.com
+||redditstatic.com/shreddit/en-US/comment-composer-fragment-client-js-0a7c9412.js
+||redditstatic.com/shreddit/en-US/comment-composer-host-f97e0510.js
+
+||redditstatic.com/shreddit/en-US/community-spotlight-carousel-client-js-d687acfa.js
+||redditstatic.com/shreddit/en-US/compact-post-community-recommendations-carousel-client-js-f617fc02.js
+||redditstatic.com/shreddit/en-US/dsa-transparency-modal-provider-client-js-f088dd96.js
+
+||redditstatic.com/shreddit/en-US/header-action-item-user-drawer-client-js-bcef072c.js
+||redditstatic.com/shreddit/en-US/header-small-client-js-292e52d8.js
+
+||redditstatic.com/shreddit/en-US/hui-grid-client-js-ba1b03c0.js
+||redditstatic.com/shreddit/en-US/hui-helpers-client-js-6b72867d.js
+||redditstatic.com/shreddit/en-US/hui-translation-button-client-js-f62cfcfa.js
+
+||redditstatic.com/shreddit/en-US/index-logged-in-9c726b41.js
+||redditstatic.com/shreddit/en-US/mod-removal-reason-form-client-js-ea0567a7.js
+||redditstatic.com/shreddit/en-US/multi-content-reporting-client-js-73c6271f.js
+||redditstatic.com/shreddit/en-US/notifications-inbox-client-js-675e6ffe.js
+
+||redditstatic.com/shreddit/en-US/pdp-right-rail-content-client-js-db843e16.js
+||redditstatic.com/shreddit/en-US/pdp-client-js-fa722bf5.js
+||redditstatic.com/shreddit/en-US/pdp-post-client-js-3c714c9d.js
+||redditstatic.com/shreddit/en-US/recommendation-context-overflow-menu-d7c5f869.js
+||redditstatic.com/shreddit/en-US/report-flow-provider-client-js-482ab466.js
+||redditstatic.com/shreddit/en-US/report-form-client-js-cf0013ba.js
+
+! Mar 28, 2025 https://www.reddit.com
+||redditstatic.com/shreddit/en-US/reddit-skip-to-sidebar-7fe1d7d3.js
+||redditstatic.com/shreddit/en-US/report-flow-client-js-ff6aebe7.js
+||redditstatic.com/shreddit/en-US/shreddit-post-overflow-menu-e2089f13.js
+||redditstatic.com/shreddit/en-US/user-mod-actions-bottom-sheet-faf58c18.js
+||redditstatic.com/shreddit/en-US/list-style-community-recommendations-mobile-client-js-e44f6418.js
+||redditstatic.com/shreddit/en-US/mod-action-overlays-client-js-4096a123.js
+||redditstatic.com/shreddit/en-US/mod-inline-actions-client-js-de69849c.js
+||redditstatic.com/shreddit/en-US/subreddit-header-client-js-c0f76241.js
+||redditstatic.com/shreddit/en-US/subreddit-posting-eligibility-modal-content-client-js-61671c7e.js
+
+||redditstatic.com/shreddit/en-US/unpacking-overflow-menu-24739e62.js
+||redditstatic.com/shreddit/en-US/user-mod-actions-a126a0d2.js
+||redditstatic.com/shreddit/en-US/viral-community-client-js-dc802663.js
+||redditstatic.com/shreddit/en-US/w3-report-from-v2-event-c276b0d1.js
+reddit.com###sharemenu*
+||redditstatic.com/shreddit/en-US/share-menu-client-js-e1b330da.js
+reddit.com##alert-controller
