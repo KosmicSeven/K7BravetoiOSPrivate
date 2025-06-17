@@ -29,9 +29,6 @@ reddit.com###alert-controller
 ||redditstatic.com/shreddit/en-US/alert-controller-client-js-*.js
 reddit.com###community-status-bottom-sheet
 
-! Feb 3, 2025 https://qbo.intuit.com
-||protoolsmainstorage.blob.core.windows.net/adstorage/Tax1099_Righttool.gif$image
-
 ! Feb 4, 2025 https://www.reddit.com
 www.reddit.com###right-sidebar-container
 www.reddit.com###left-sidebar
@@ -96,96 +93,3 @@ www.reddit.com##.ml-xs.inline-flex.nd\:hidden
 ! March 24, 2025 reddit.com (Reddit Loading Icon)
 reddit.com##shreddit-feed-page-loading
 
-! Mar 28, 2025 https://www.reddit.com
-www.reddit.com##.relative.justify-end.flex-1.items-center.flex > .block.nd\:visible
-www.reddit.com###expand-search-button
-||styles.redditmedia.com/t5_*/styles/profileIcon_snoo*-headshot*.png*
-||preview.redd.it/snoovatar/avatars/nftv2*
-www.reddit.com##.min-h-\[2rem\].min-w-\[2rem\].h-\[2rem\].w-\[2rem\].relative.inline-flex
-www.reddit.com##.shrink-0.text-48.h-2xl.w-2xl.xs\:h-\[88px\].xs\:w-\[88px\]
-www.reddit.com##.h-xl.w-xl.indent-0.flex-shrink-0.overflow-hidden.items-center.text-32.avatar
-www.reddit.com##.rte-media
-||www.redditstatic.com/shreddit/assets/illustrations/cake-day.svg$image
-||reddit.com/svc/shreddit/user-drawer-button-logged-in
-||reddit.com/svc/shreddit/token
-||gql-realtime.reddit.com/query
-||redditstatic.com/shreddit/en-US/feed-ad-client-*.js
-
-! Below to March 28th one of these broke comment reply & settings menu (not comment post that is above)
-
-! Mar 28, 2025 https://www.reddit.com 
-||reddit.com/svc/shreddit/styling-overrides/?cont*
-||reddit.com/svc/shreddit/header-action-item-inbox?render-mode=partial
-www.reddit.com##.gap-x-xs.items-center.flex > faceplate-tracker.nd\:visible:nth-of-type(1)
-||redditstatic.com/shreddit/en-US/devvit-context-actions-db108cfb.js
-
-! Mar 28, 2025 https://www.reddit.com
-www.reddit.com##.relative.justify-end.flex-1.items-center.flex > .block.nd\:visible
-www.reddit.com###expand-search-button
-||styles.redditmedia.com/t5_*/styles/profileIcon_snoo*-headshot*.png*
-||preview.redd.it/snoovatar/avatars/nftv2*
-www.reddit.com##.min-h-\[2rem\].min-w-\[2rem\].h-\[2rem\].w-\[2rem\].relative.inline-flex
-www.reddit.com##.shrink-0.text-48.h-2xl.w-2xl.xs\:h-\[88px\].xs\:w-\[88px\]
-www.reddit.com##.h-xl.w-xl.indent-0.flex-shrink-0.overflow-hidden.items-center.text-32.avatar
-www.reddit.com##.rte-media
-||www.redditstatic.com/shreddit/assets/illustrations/cake-day.svg$image
-||reddit.com/svc/shreddit/user-drawer-button-logged-in
-||reddit.com/svc/shreddit/token
-||gql-realtime.reddit.com/query
-||redditstatic.com/shreddit/en-US/feed-ad-client-*.js
-
-! Mar 28, 2025 https://www.reddit.com
-||reddit.com/svc/shreddit/styling-overrides/?cont*
-||reddit.com/svc/shreddit/header-action-item-inbox?render-mode=partial
-www.reddit.com##.gap-x-xs.items-center.flex > faceplate-tracker.nd\:visible:nth-of-type(1)
-||www.reddit.com/svc/shreddit/events
-||redditstatic.com/shreddit/en-US/devvit-context-actions-db108cfb.js
-
-! Mar 28, 2025 https://www.reddit.com
-||reddit.com/svc/shreddit/pdp-right-rail/relate*
-||reddit.com/svc/shreddit/subreddit-posting-eligibility-modal*
-||redditstatic.com/shreddit/en-US/shreddit-comment-share-button-*.js
-www.reddit.com##.border-neutral-border-weak.border.border-solid.text-secondary.leading-4.rounded-\[20px\].px-\[6px\].box-border.align-text-bottom.font-normal.text-12.max-w-full.truncate.inline-block.bg-tone-4
-reddit.com###xpromo-bottom-sheet > div
-||redditstatic.com/shreddit/en-US/pdp-ad-client-js-361e96b2.js
-||redditstatic.com/shreddit/en-US/community-author-flair-client-js-3438702e.js
-
-! Mar 28, 2025 https://www.reddit.com
-||redditstatic.com/shreddit/en-US/comment-composer-fragment-client-js-0a7c9412.js
-||redditstatic.com/shreddit/en-US/comment-composer-host-f97e0510.js
-||redditstatic.com/shreddit/en-US/community-spotlight-carousel-client-js-d687acfa.js
-||redditstatic.com/shreddit/en-US/compact-post-community-recommendations-carousel-client-js-f617fc02.js
-||redditstatic.com/shreddit/en-US/dsa-transparency-modal-provider-client-js-f088dd96.js
-||redditstatic.com/shreddit/en-US/header-action-item-user-drawer-client-js-bcef072c.js
-||redditstatic.com/shreddit/en-US/header-small-client-js-292e52d8.js
-||redditstatic.com/shreddit/en-US/hui-grid-client-js-ba1b03c0.js
-||redditstatic.com/shreddit/en-US/hui-helpers-client-js-6b72867d.js
-||redditstatic.com/shreddit/en-US/hui-translation-button-client-js-f62cfcfa.js
-||redditstatic.com/shreddit/en-US/index-logged-in-9c726b41.js
-||redditstatic.com/shreddit/en-US/mod-removal-reason-form-client-js-ea0567a7.js
-||redditstatic.com/shreddit/en-US/multi-content-reporting-client-js-73c6271f.js
-||redditstatic.com/shreddit/en-US/notifications-inbox-client-js-675e6ffe.js
-||redditstatic.com/shreddit/en-US/pdp-right-rail-content-client-js-db843e16.js
-||redditstatic.com/shreddit/en-US/pdp-client-js-fa722bf5.js
-||redditstatic.com/shreddit/en-US/pdp-post-client-js-3c714c9d.js
-||redditstatic.com/shreddit/en-US/recommendation-context-overflow-menu-d7c5f869.js
-||redditstatic.com/shreddit/en-US/report-flow-provider-client-js-482ab466.js
-||redditstatic.com/shreddit/en-US/report-form-client-js-cf0013ba.js
-
-! Mar 28, 2025 https://www.reddit.com
-||redditstatic.com/shreddit/en-US/reddit-skip-to-sidebar-7fe1d7d3.js
-||redditstatic.com/shreddit/en-US/report-flow-client-js-ff6aebe7.js
-||redditstatic.com/shreddit/en-US/shreddit-post-overflow-menu-e2089f13.js
-||redditstatic.com/shreddit/en-US/user-mod-actions-bottom-sheet-faf58c18.js
-||redditstatic.com/shreddit/en-US/list-style-community-recommendations-mobile-client-js-e44f6418.js
-||redditstatic.com/shreddit/en-US/mod-action-overlays-client-js-4096a123.js
-||redditstatic.com/shreddit/en-US/mod-inline-actions-client-js-de69849c.js
-||redditstatic.com/shreddit/en-US/subreddit-header-client-js-c0f76241.js
-||redditstatic.com/shreddit/en-US/subreddit-posting-eligibility-modal-content-client-js-61671c7e.js
-||redditstatic.com/shreddit/en-US/unpacking-overflow-menu-24739e62.js
-||redditstatic.com/shreddit/en-US/user-mod-actions-a126a0d2.js
-||redditstatic.com/shreddit/en-US/viral-community-client-js-dc802663.js
-||redditstatic.com/shreddit/en-US/w3-report-from-v2-event-c276b0d1.js
-reddit.com###sharemenu*
-||redditstatic.com/shreddit/en-US/share-menu-client-js-e1b330da.js
-reddit.com##alert-controller
