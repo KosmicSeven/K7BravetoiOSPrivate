@@ -1,3 +1,100 @@
+reddit.com##[id]:remove-attr(id)
+reddit.com##[is-user-logged-in]:remove-attr(is-user-logged-in)
+reddit.com##[user-logged-in]:remove-attr(user-logged-in)
+
+! Oct 12, 2024 https://www.
+reddit.com##[is-user-logged-in]:remove-attr(is-user-logged-in)
+reddit.com##[user-logged-in]:remove-attr(user-logged-in)
+www.reddit.com##.xs\:overflow-x-hidden.xs\:overflow-y-auto.xs\:max-h-\[calc\(100vh-var\(--shreddit-header-height\)-1px\)\].xs\:top-\[56px\].xs\:sticky.styled-scrollbars.s\:block.hidden.min-w-\[316px\].w-\[316px\].right-sidebar
+www.reddit.com##.w-full.masthead
+reddit.com##.main:remove-class(right-sidebar-s)
+reddit.com##body > shreddit-app > div.grid-container.theme-rpl.grid.grid-cols-1.m\:grid-cols-\[272px_1fr\]:remove-attr(class)
+
+! March 24, 2025
+redditmedia.com/styles/*
+redditstatic.com/marketplace-assets*
+emoji.redditmedia.com*
+redd.it/snoov*
+reddit.com##shreddit-post-share-button
+reddit.com##award-button
+reddit.com##shreddit-join-button
+reddit.com##shreddit-comment-share-button
+reddit.com##shreddit-overflow-menu
+reddit.com###signup-drawer
+reddit.com###unpacked-actions > button:nth-child(2)
+reddit.com###unpacked-actions > button:nth-child(4)
+reddit.com###unpacked-actions > button:nth-child(3)
+||reddit.com/svc/shreddit/partial/*/signup-drawer?actionSource=auth_prompt
+reddit.com###alert-controller
+||redditstatic.com/shreddit/en-US/alert-controller-client-js-*.js
+reddit.com###community-status-bottom-sheet
+
+! Feb 3, 2025 https://qbo.intuit.com
+||protoolsmainstorage.blob.core.windows.net/adstorage/Tax1099_Righttool.gif$image
+
+! Feb 4, 2025 https://www.reddit.com
+www.reddit.com###right-sidebar-container
+www.reddit.com###left-sidebar
+www.reddit.com###get-app
+www.reddit.com###left-sidebar-container
+www.reddit.com##.xs\:mr-sm.mr-xs.my-2xs.items-center.flex
+
+! March 24, 2025 reddit.com
+||redditmedia.com/styles/*
+||redditstatic.com/marketplace-assets*
+||redd.it/snoov*
+||styles.redditmedia.com/t5_*/styles/prof*
+||redditstatic.com/shreddit/assets/avatar_over18.png
+reddit.com##shreddit-post-share-button
+reddit.com##award-button
+reddit.com##shreddit-join-button
+reddit.com##shreddit-comment-share-button
+reddit.com##shreddit-overflow-menu
+reddit.com###signup-drawer
+reddit.com###unpacked-actions > button:nth-child(2)
+reddit.com###unpacked-actions > button:nth-child(4)
+reddit.com###unpacked-actions > button:nth-child(3)
+||reddit.com/svc/shreddit/partial/*/signup-drawer?actionSource=auth_prompt
+reddit.com###alert-controller
+||redditstatic.com/shreddit/en-US/alert-controller-client-js-*.js
+||emoji.redditmedia.com/*_t5_*/
+||emoji.redditmedia.com/*/
+||emoji.redditmedia.com*
+||redditstatic.com/avatars/defaults/v2/avatar_default_3.png$image
+
+! March 24, 2025 reddit.com
+reddit.com###community-status-bottom-sheet
+reddit.com###xpromo-bottom-sheet
+reddit.com###body > shreddit-app > faceplate-partial:nth-child(60)
+reddit.com###main-content > faceplate-partial.block.min-h-screen.xs\:min-h-\[20rem\]
+
+! March 24, 2025 reddit.com (One of these effect the ability to comment on main post)
+||redditstatic.com/shreddit/en-US/lexi*
+
+! March 24, 2025 reddit.com
+||google.com/gsi/client^$domain=reddit.com
+||redditstatic.com/shreddit/en-US/search-results-scoped-sidebar-client-js-*.js
+||redditstatic.com/shreddit/en-US/pixels-*.js
+||redditstatic.com/shreddit/en-US/flair-editor-*.js
+reddit.com##community-achievements-flair
+
+! March 24, 2025 reddit.com (Might break some website / get flagged as bot)
+https://www.reddit.com/svc/shreddit/update*
+
+! March 24, 2025 reddit.com
+||redditstatic.com/shreddit/en-US/timer-*.js
+||redditstatic.com/avatars/defaults/v2/avatar_default_*.png
+||ad-delivery.net*
+
+! March 24, 2025 reddit.com (Disables community icons)
+||styles.redditmedia.com/*/styles/comm*
+www.reddit.com##.h-\[1\.5rem\].w-\[1\.5rem\].justify-center.items-center.inline-flex
+
+! March 24, 2025 reddit.com (User Post Emoji)
+www.reddit.com##.ml-xs.inline-flex.nd\:hidden
+
+! March 24, 2025 reddit.com (Reddit Loading Icon)
+reddit.com##shreddit-feed-page-loading
 
 ! Mar 28, 2025 https://www.reddit.com
 www.reddit.com##.relative.justify-end.flex-1.items-center.flex > .block.nd\:visible
