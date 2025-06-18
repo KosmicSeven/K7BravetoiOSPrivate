@@ -1,36 +1,12 @@
-reddit.com##[id]:remove-attr(id)
-reddit.com##[is-user-logged-in]:remove-attr(is-user-logged-in)
-reddit.com##[user-logged-in]:remove-attr(user-logged-in)
-
-! Oct 12, 2024 https://www.
-reddit.com##[is-user-logged-in]:remove-attr(is-user-logged-in)
-reddit.com##[user-logged-in]:remove-attr(user-logged-in)
-www.reddit.com##.xs\:overflow-x-hidden.xs\:overflow-y-auto.xs\:max-h-\[calc\(100vh-var\(--shreddit-header-height\)-1px\)\].xs\:top-\[56px\].xs\:sticky.styled-scrollbars.s\:block.hidden.min-w-\[316px\].w-\[316px\].right-sidebar
-www.reddit.com##.w-full.masthead
-reddit.com##.main:remove-class(right-sidebar-s)
-reddit.com##body > shreddit-app > div.grid-container.theme-rpl.grid.grid-cols-1.m\:grid-cols-\[272px_1fr\]:remove-attr(class)
-
-! March 24, 2025
-redditmedia.com/styles/*
-redditstatic.com/marketplace-assets*
-emoji.redditmedia.com*
-redd.it/snoov*
-reddit.com##shreddit-post-share-button
-reddit.com##award-button
-reddit.com##shreddit-join-button
-reddit.com##shreddit-comment-share-button
-reddit.com##shreddit-overflow-menu
-reddit.com###signup-drawer
-reddit.com###unpacked-actions > button:nth-child(2)
-reddit.com###unpacked-actions > button:nth-child(4)
-reddit.com###unpacked-actions > button:nth-child(3)
-||reddit.com/svc/shreddit/partial/*/signup-drawer?actionSource=auth_prompt
-reddit.com###alert-controller
-||redditstatic.com/shreddit/en-US/alert-controller-client-js-*.js
-reddit.com###community-status-bottom-sheet
-
-! Feb 3, 2025 https://qbo.intuit.com
+! QuickBooks Feb 3rd 2025
 ||protoolsmainstorage.blob.core.windows.net/adstorage/Tax1099_Righttool.gif$image
+||logging.api.intuit.com/v2/log/message^
+||eventbus.intuit.com/v2/segment/sbseg-qbo-clickstream/*
+||eventbus.intuit.com/v2/intuit-clickstream^
+||rum.api.intuit.com/vl/rum/web^
+||rum.api.intuit.com/vl/trace^
+||zion.qbo.intuit.com/api/vl/logs^
+||uxfabric.intuitcdn.net/dtc/prod/expenses-forms-ui/*/expenses-forms-ui/expense/*/config.json^
 
 ! Feb 4, 2025 https://www.reddit.com
 www.reddit.com###right-sidebar-container
@@ -78,11 +54,26 @@ reddit.com###main-content > faceplate-partial.block.min-h-screen.xs\:min-h-\[20r
 ||redditstatic.com/shreddit/en-US/flair-editor-*.js
 reddit.com##community-achievements-flair
 
-! March 24, 2025 reddit.com (Might break some website / get flagged as bot)
-https://www.reddit.com/svc/shreddit/update*
+! Dont Use these**************
+! ||redditstatic.com/shreddit/en-US/shell-*.js
+! ||redditstatic.com/shreddit/en-US/icon-*.js
+! ||redditstatic.com/shreddit/en-US/club-award-confirmation-client-js-*.js
+! ||redditstatic.com/shreddit/en-US/partial-feed-post-client-js-*.js
+! ||redditstatic.com/shreddit/en-US/tooltip.base-*.js
+! ||redditstatic.com/shreddit/en-US/errors-*.js
+! ||redditstatic.com/shreddit/en-US/community-club-highlights-client-js-*.js
+! ||redditstatic.com/shreddit/en-US/index-*.js
+! ||||redditstatic.com/shreddit/en-US/community-colors-*.js (Remove logout menu)
+! ||redditstatic.com/shreddit/en-US/awardsTelemetryState-*.js
+! ||redditstatic.com/shreddit/en-US/feed-post-client-js-54ddfa6c.js (Causes Post UI button to remove)
+! |||redditstatic.com/shreddit/en-US/comment-forest-client-js-e276f9e2.js (Breaks ability to see comments)
+! ||redditstatic.com/shreddit/en-US/home-feed-client-js-81711a05.js (Breaks home feed posts)
+! ||redditstatic.com/shreddit/en-US/deprecated-content-client-js-a830e56b.js (Remove ability to click to see NSFa)
+! ||redditstatic.com/shreddit/en-US/search-input-desktop-client-js-3d108ac7.js (Makes post comments disappear)
+! ||redditstatic.com/shreddit/en-US/user-hover-card-client-js-f34cf493.js (Interact with posts disappear)
 
 ! March 24, 2025 reddit.com
-||redditstatic.com/shreddit/en-US/timer-*.js
+! ||redditstatic.com/shreddit/en-US/timer-*.js
 ||redditstatic.com/avatars/defaults/v2/avatar_default_*.png
 ||ad-delivery.net*
 
@@ -138,19 +129,44 @@ www.reddit.com##.rte-media
 ||reddit.com/svc/shreddit/styling-overrides/?cont*
 ||reddit.com/svc/shreddit/header-action-item-inbox?render-mode=partial
 www.reddit.com##.gap-x-xs.items-center.flex > faceplate-tracker.nd\:visible:nth-of-type(1)
-||www.reddit.com/svc/shreddit/events
 ||redditstatic.com/shreddit/en-US/devvit-context-actions-db108cfb.js
 
 ! Mar 28, 2025 https://www.reddit.com
 ||reddit.com/svc/shreddit/pdp-right-rail/relate*
 ||reddit.com/svc/shreddit/subreddit-posting-eligibility-modal*
-||redditstatic.com/shreddit/en-US/shreddit-comment-share-button-*.js
+! ||redditstatic.com/shreddit/en-US/shreddit-comment-share-button-*.js
 www.reddit.com##.border-neutral-border-weak.border.border-solid.text-secondary.leading-4.rounded-\[20px\].px-\[6px\].box-border.align-text-bottom.font-normal.text-12.max-w-full.truncate.inline-block.bg-tone-4
 reddit.com###xpromo-bottom-sheet > div
 ||redditstatic.com/shreddit/en-US/pdp-ad-client-js-361e96b2.js
 ||redditstatic.com/shreddit/en-US/community-author-flair-client-js-3438702e.js
 
 ! Mar 28, 2025 https://www.reddit.com
+www.reddit.com##.relative.justify-end.flex-1.items-center.flex > .block.nd\:visible
+www.reddit.com###expand-search-button
+||styles.redditmedia.com/t5_*/styles/profileIcon_snoo*-headshot*.png*
+||preview.redd.it/snoovatar/avatars/nftv2*
+www.reddit.com##.min-h-\[2rem\].min-w-\[2rem\].h-\[2rem\].w-\[2rem\].relative.inline-flex
+www.reddit.com##.shrink-0.text-48.h-2xl.w-2xl.xs\:h-\[88px\].xs\:w-\[88px\]
+www.reddit.com##.h-xl.w-xl.indent-0.flex-shrink-0.overflow-hidden.items-center.text-32.avatar
+www.reddit.com##.rte-media
+||www.redditstatic.com/shreddit/assets/illustrations/cake-day.svg$image
+||reddit.com/svc/shreddit/user-drawer-button-logged-in
+||reddit.com/svc/shreddit/token
+||gql-realtime.reddit.com/query
+||redditstatic.com/shreddit/en-US/feed-ad-client-*.js
+
+! Mar 28, 2025 https://www.reddit.com
+||reddit.com/svc/shreddit/styling-overrides/?cont*
+||reddit.com/svc/shreddit/header-action-item-inbox?render-mode=partial
+
+||redditstatic.com/shreddit/en-US/devvit-context-actions-db108cfb.js
+
+! Mar 28, 2025 https://www.reddit.com
+||reddit.com/svc/shreddit/pdp-right-rail/relate*
+||reddit.com/svc/shreddit/subreddit-posting-eligibility-modal*
+||redditstatic.com/shreddit/en-US/shreddit-comment-share-button-*.js
+||redditstatic.com/shreddit/en-US/pdp-ad-client-js-361e96b2.js
+||redditstatic.com/shreddit/en-US/community-author-flair-client-js-3438702e.js
 ||redditstatic.com/shreddit/en-US/comment-composer-fragment-client-js-0a7c9412.js
 ||redditstatic.com/shreddit/en-US/comment-composer-host-f97e0510.js
 ||redditstatic.com/shreddit/en-US/community-spotlight-carousel-client-js-d687acfa.js
@@ -171,8 +187,6 @@ reddit.com###xpromo-bottom-sheet > div
 ||redditstatic.com/shreddit/en-US/recommendation-context-overflow-menu-d7c5f869.js
 ||redditstatic.com/shreddit/en-US/report-flow-provider-client-js-482ab466.js
 ||redditstatic.com/shreddit/en-US/report-form-client-js-cf0013ba.js
-
-! Mar 28, 2025 https://www.reddit.com
 ||redditstatic.com/shreddit/en-US/reddit-skip-to-sidebar-7fe1d7d3.js
 ||redditstatic.com/shreddit/en-US/report-flow-client-js-ff6aebe7.js
 ||redditstatic.com/shreddit/en-US/shreddit-post-overflow-menu-e2089f13.js
@@ -186,6 +200,741 @@ reddit.com###xpromo-bottom-sheet > div
 ||redditstatic.com/shreddit/en-US/user-mod-actions-a126a0d2.js
 ||redditstatic.com/shreddit/en-US/viral-community-client-js-dc802663.js
 ||redditstatic.com/shreddit/en-US/w3-report-from-v2-event-c276b0d1.js
-reddit.com###sharemenu*
-||redditstatic.com/shreddit/en-US/share-menu-client-js-e1b330da.js
-reddit.com##alert-controller
+
+www.reddit.com##.border-neutral-border-weak.border.border-solid.text-secondary.leading-4.rounded-\[20px\].px-\[6px\].box-border.align-text-bottom.font-normal.text-12.max-w-full.truncate.inline-block.bg-tone-4
+reddit.com###xpromo-bottom-sheet > div
+www.reddit.com##.gap-x-xs.items-center.flex > faceplate-tracker.nd\:visible:nth-of-type(1)
+reddit.com##[is-user-logged-in]:remove-attr(is-user-logged-in)
+!reddit.com##[isUserLoggedIn]:remove-attr(isUserLoggedIn)
+reddit.com##[user-logged-in]:remove-attr(user-logged-in)
+reddit.com##[item-state]:remove-attr(item-state)
+reddit.com##+js(set-attr, [user-logged-in], false)
+reddit.com##+js(set-attr, [is-user-logged-in], false)
+reddit.com##+js(set-attr, [isUserLoggedIn], false)
+reddit.com##+js(remove-attr.js, user-logged-in)
+reddit.com##+js(remove-attr, user-logged-in)
+www.reddit.com##alert-controller
+
+! Apr 24, 2025 https://www.lowes.com
+www.lowes.com##.xl-2.lg-2.md-2.sm-12.align-center.padding-none.col.jgsPCN.GridStyles__GridColumn-sc-1ejksnu-2
+www.lowes.com##div.xl-1.lg-1.md-1.sm-12.padding-none.col.jgsPCN.GridStyles__GridColumn-sc-1ejksnu-2:nth-of-type(3)
+www.lowes.com##.margin-top-small.ixUkHW.sc-khQegj
+www.lowes.com##.jYIZGk.sc-dJjYzT
+www.lowes.com##div.align--left.variant--body.typography
+www.lowes.com##div.khWDQN.sc-pVTFL:nth-of-type(4)
+www.lowes.com##.max-width-none.row-container-style.margin-none.padding-none.row.kCxbMF.GridStyles__GridRow-sc-1ejksnu-1
+www.lowes.com##.xl-3.lg-3.md-3.sm-12.padding-none.col.jgsPCN.GridStyles__GridColumn-sc-1ejksnu-2 > .margin-micro.padding-none.row.kCxbMF.GridStyles__GridRow-sc-1ejksnu-1
+www.lowes.com##div.xl-1.lg-1.md-1.sm-12.padding-none.col
+www.lowes.com##.xl-3.lg-3.md-3.sm-12.padding-none.col.jgsPCN.GridStyles__GridColumn-sc-1ejksnu-2
+www.lowes.com##.xl-10.lg-10.md-8.sm-8.padding-none.pro-img-icons.col.jgsPCN.GridStyles__GridColumn-sc-1ejksnu-2
+www.lowes.com##.kSOUab.sc-egiyK
+www.lowes.com##div.fHieSO.sc-pVTFL:nth-of-type(4)
+www.lowes.com###app > div.sc-iqseJM.kOjXFk > div > div > div.sc-eCImPb.hEkIWi.margin-medium > div.lazyload-wrapper > div:nth-child(1) > div:nth-child(1) > div:nth-child(4)
+www.lowes.com###app > div.sc-iqseJM.kOjXFk > div > div > div.sc-eCImPb.hEkIWi.margin-medium > div.lazyload-wrapper > div:nth-child(1) > div:nth-child(1) > div.GridStyles__GridColumn-sc-1ejksnu-2.jgsPCN.col.padding-none.sm-12.md-2.lg-2.xl-2
+www.lowes.com###app > div.sc-iqseJM.kOjXFk > div > div > div.sc-eCImPb.hEkIWi.margin-medium > div.lazyload-wrapper > div.sc-iCfMLu.kDmsa-D.margin-bottom-large > div:nth-child(1) > div:nth-child(2)
+lowes.com###div.GridStyles__GridRow-sc-1ejksnu-1.kCxbMF.row.margin-bottom-small
+www.lowes.com##.margin-bottom-large.kDmsa-D.sc-iCfMLu > div.padding-none.row.kCxbMF.GridStyles__GridRow-sc-1ejksnu-1 > .xl-2.lg-2.md-2.sm-12.padding-none.col.jgsPCN.GridStyles__GridColumn-sc-1ejksnu-2 > .margin-bottom-mini
+www.lowes.com##.breadcrumb-z-index.render--auto.breadcrumb.hLCwZe.BreadcrumbMobileBase-sc-pai73i-0
+www.lowes.com##div.margin-bottom-small.kDmsa-D.sc-iCfMLu > .padding-none.row.kCxbMF.GridStyles__GridRow-sc-1ejksnu-1
+www.lowes.com##div.margin-bottom-small.kDmsa-D.sc-iCfMLu:nth-of-type(7)
+www.lowes.com##.scaf-rec.fojman.sc-clIzBv
+www.lowes.com##.laLWkR.sc-dcJsrY
+www.lowes.com##.fkPyEw.AskMyLowstyles__Container-sc-1yorc9y-14
+www.lowes.com##div.pd-comp-space-8:nth-of-type(14)
+www.lowes.com##.full-width.shape--rounded.color--interactive.variant--secondary.size--large.button.backyard.jEYXMi.ButtonBase-sc-1ngvxvr-0
+www.lowes.com##.pd-comp-space-8.fqspXj.sc-cMa-dbN
+www.lowes.com##.dGUVnb.Loyaltystyles__WrapperComponent-sc-5lfyg8-0
+www.lowes.com##div.pd-comp-space-8:nth-of-type(16)
+www.lowes.com##div.ipqMDr.sc-gmPhUn
+www.lowes.com##.met-seo-hlx-rs.seo-pdp-relatedsearches.eZhnGd.sc-dycYrt
+www.lowes.com##div.pd-comp-space-8 > div > .closed.align--end.size--medium.color--transparent.variant--triangle.accordion.backyard.fAxsqX.AccordionWrapper-sc-pnamy6-0
+www.lowes.com##div.pd-comp-space-8:nth-of-type(19)
+www.lowes.com##div.pd-comp-space-8:nth-of-type(17)
+www.lowes.com##.gmLqST.SpecificationComponentstyles__BestSellersPDPLinkWrapper-sc-s1hhpd-1
+www.lowes.com##.emtGgW.sc-feoqov
+www.lowes.com##.visualizer
+lowes.com##.margin-bottom-top-large:style(margin-top: 0 !important; margin-bottom: 0 !important;)
+www.lowes.com##.body_1.align--left.variant--body.typography.bQzZPZ.styles__ParagraphRegular-sc-1ljw3tp-0
+www.lowes.com##.fcwhZU:style(background-color: transparent !important;)
+lowes.com##.jgsPCN:style(padding-left: 0 !important; padding-right: 0 !important;)
+lowes.com##.fcwhZU:style(padding: 0 !important; line-height: 1 !important;)
+lowes.com##.kCxbMF:style(margin-left: 1rem !important; margin-right: 1rem !important; align-items: center !important; flex-wrap: wrap !important; flex-direction: row !important; align-content: stretch !important; justify-content: center !important;)
+www.lowes.com##.margin-large.khWDQN.sc-pVTFL > .padding-none.row.kCxbMF.GridStyles__GridRow-sc-1ejksnu-1 > .xl-5.lg-5.md-5.sm-12.padding-none.col.jgsPCN.GridStyles__GridColumn-sc-1ejksnu-2
+www.lowes.com##div.row.kCxbMF.GridStyles__GridRow-sc-1ejksnu-1:nth-of-type(6) > .xl-12.lg-12.md-12.sm-12.col.jgsPCN.GridStyles__GridColumn-sc-1ejksnu-2
+lowes.com##.jgsPCN.xl-4:style(max-width: 45% !important;)
+lowes.com##.jVdlfO:style(line-height: 0 !important;)
+lowes.com##.jgsPCN.xl-2:style(flex-basis: 0% !important; max-width: 0 !important;)
+lowes.com##.khWDQN:style(padding: 2.25rem !important; max-width: 99% !important; margin: 0 auto !important; background-color: #FFFFFF !important;)
+!lowes.com##.hwTDgO:style(max-width: 99% !important; margin: 0 auto !important; background-color: #FFFFFF !important;)
+
+
+
+||www.redditstatic.com/sprite-reddit.HQ6joUNvjfY.png$image
+! 2023-12-05 https://www.reddit.com
+www.reddit.com##._1tvThPWQpORoc2taKebHxs._3Kd8DQpBIbsr5E1JcrMFTY
+
+! 2023-12-05 https://www.youtube.com
+www.youtube.com##.centered.efyt-control-bar
+
+! 2023-12-06 https://www.reddit.com
+www.reddit.com##._2p14AQvJBvTrEEa4csiW9v
+www.reddit.com##._1c98ixuh4QUWO9ERiFID3p._3wvjcIArtO7kKPJabZfZ9S
+www.reddit.com##._2L5G9B5yaoqW3IegiYN-FL
+www.reddit.com##._1gVVmSnHZpkUgVShsn7-ua
+www.reddit.com##._1cubpGNEaCAVnpJl1KBPcO.cmR5BF4NpBUm3DBMZCmJS
+www.reddit.com##._20HfCAFz3ot1MW1o29ZoGZ.XZK-LTFT5CgGo9MvPQQsy
+www.reddit.com##._2t7TYn6HwRZQwKXG47kpQR._23q1waDr4n_2fR5A7zcZzb.x0hiXHicn7r3BG9m1FJH4
+www.reddit.com##._3rS8YTDjcT7fs0k9W4rxDG._24x5wRDxU1y38uXQXvLE4m._3jiriKeNer8y0-1r6oWIFM
+www.reddit.com##._3rS8YTDjcT7fs0k9W4rxDG._3jiriKeNer8y0-1r6oWIFM
+www.reddit.com##.isolate.border-r-neutral-border-weak.s\:border-r-sm.border-solid.border-0.relative.m\:visible.m\:block.s\:col-end-4.s\:col-start-1.w-100.col-end-1.col-start-1.hidden.invisible.row-end-auto.row-start-1.theme-rpl.left-sidebar-min
+www.reddit.com##shreddit-comment.xs\:px-0.px-md.pt-md > div > faceplate-hovercard > .items-center.flex-row.flex > .items-center.flex > .mr-sm.items-center.flex > .xs\:h-xl.xs\:w-xl.h-lg.w-lg.justify-center.items-center.flex
+www.reddit.com##shreddit-comment.xs\:px-0.px-md.pt-md > div > shreddit-comment > div > faceplate-hovercard > .items-center.flex-row.flex
+www.reddit.com##shreddit-comment.xs\:px-0.px-md.pt-md > div > shreddit-comment > div > .items-center.flex-row.flex > .mr-sm.items-center.flex > .xs\:h-xl.xs\:w-xl.h-lg.w-lg.justify-center.items-center.flex > .overflow-hidden.rounded-full
+www.reddit.com##shreddit-comment.xs\:px-0.px-md.pt-md > div > shreddit-comment > div > .items-center.flex-row.flex
+
+! 2023-12-07 https://www.reddit.com
+www.reddit.com##shreddit-comment.xs\:px-0.px-md.pt-md > div > shreddit-comment > div > shreddit-comment > div > faceplate-hovercard > .items-center.flex-row.flex
+www.reddit.com##shreddit-comment.xs\:px-0.px-md.pt-md shreddit-comment shreddit-comment shreddit-comment faceplate-hovercard > .items-center.flex-row.flex > .items-center.flex > .mr-sm.items-center.flex > .xs\:h-xl.xs\:w-xl.h-lg.w-lg.justify-center.items-center.flex > .overflow-hidden.rounded-full
+www.reddit.com##shreddit-comment.xs\:px-0.px-md.pt-md shreddit-comment shreddit-comment shreddit-comment faceplate-hovercard > .items-center.flex-row.flex > .items-center.flex
+
+! 2023-12-07 https://www.youtube.com
+www.youtube.com###guide-button
+
+! 2023-12-10 https://old.reddit.com
+old.reddit.com##.listingsignupbar.infobar
+old.reddit.com##.side
+
+! 2023-12-11 https://www.reddit.com
+www.reddit.com##._6E4bLu7N3_WO5HyAtaJx8
+www.reddit.com##._3oLr47tuKGv2mNpavCZ2X0 > span:nth-of-type(2)
+
+! 2023-12-15 https://www.reddit.com
+www.reddit.com##.xs\:mx-0.mb-\[16px\].p-\[12px\].bg-tone-5.max-w-full.rounded-\[4px\].cursor-pointer.items-center.justify-start.relative.flex
+
+! 2023-12-16 https://gg.deals
+gg.deals##.with-image.site-banner-content-widget
+
+! 2023-12-19 https://adsmanager.facebook.com
+adsmanager.facebook.com##.x1hc1fzr.x19991ni.x12w9bfk.xxziih7.xofcydl.x1c8ul09.xbqvh2t.xn9wirt.x17qophe.x13vifvy.xixxii4.x1dr59a3
+
+! 2023-12-20 https://gg.deals
+||img.gg.deals/65/da/d5c372b8710939b53e7d7c53555c99f54276_2560xt1440_Q100.jpg$image
+gg.deals##.site-banner-top-widget
+
+! 2023-12-24 https://www.reddit.com
+www.reddit.com##._2w46GjyOK9f8VUpIbu6q1B
+
+! 2023-12-29 https://www.reddit.com
+www.reddit.com##._369llFshxbL10dgfLlIApJ
+
+! 2024-01-21 https://www.tiktok.com
+||v16-webapp-prime.us.tiktok.com/video/tos/useast5/tos-useast5-pve-0068-tx/5e94f9305e694a07b2c38aff9d52c97e/?a=1988&ch=0&cr=3&dr=0&lr=unwatermarked&cd=0%7C0%7C0%7C&cv=1&br=3240&bt=1620&bti=ODszNWYuMDE6&cs=0&ds=6&ft=4KJMyMzm8Zmo0Isf.94jVRjLdpWrKsd.&mime_type=video_mp4&qs=0&rc=aGc5ZzQ0aTs6MzRmaTpoaUBpanQ5azM6ZnFtNzMzNzczM0A0NTQ2M2FiXzAxLi4tY14yYSMuX19ycjRvMmJgLS1kMTZzcw%3D%3D&btag=e00088000&expire=1705820001&l=20240121005309D9D0D2E8731C6831E4ED&ply_type=2&policy=2&signature=e146137b66dd388fa7702349536e8aaf&tk=tt_chain_token$media
+||v16-webapp-prime.us.tiktok.com/video/tos/useast5/tos-useast5-pve-0068-tx/5e94f9305e694a07b2c38aff9d52c97e/?a=1988&ch=0&cr=3&dr=0&lr=unwatermarked&cd=0%7C0%7C0%7C&cv=1&br=3240&bt=1620&bti=ODszNWYuMDE6&cs=0&ds=6&ft=4KJMyMzm8Zmo0Isf.94jVRjLdpWrKsd.&mime_type=video_mp4&qs=0&rc=aGc5ZzQ0aTs6MzRmaTpoaUBpanQ5azM6ZnFtNzMzNzczM0A0NTQ2M2FiXzAxLi4tY14yYSMuX19ycjRvMmJgLS1kMTZzcw%3D%3D&btag=e00088000&expire=1705820001&l=20240121005309D9D0D2E8731C6831E4ED&ply_type=2&policy=2&signature=e146137b66dd388fa7702349536e8aaf&tk=tt_chain_token$media
+||v16-webapp-prime.us.tiktok.com/video/tos/useast5/tos-useast5-pve-0068-tx/5e94f9305e694a07b2c38aff9d52c97e/?a=1988&ch=0&cr=3&dr=0&lr=unwatermarked&cd=0%7C0%7C0%7C&cv=1&br=3240&bt=1620&bti=ODszNWYuMDE6&cs=0&ds=6&ft=4KJMyMzm8Zmo0Isf.94jVRjLdpWrKsd.&mime_type=video_mp4&qs=0&rc=aGc5ZzQ0aTs6MzRmaTpoaUBpanQ5azM6ZnFtNzMzNzczM0A0NTQ2M2FiXzAxLi4tY14yYSMuX19ycjRvMmJgLS1kMTZzcw%3D%3D&btag=e00088000&expire=1705820001&l=20240121005309D9D0D2E8731C6831E4ED&ply_type=2&policy=2&signature=e146137b66dd388fa7702349536e8aaf&tk=tt_chain_token$media
+www.tiktok.com##.e1gjoq3k3.css-4qayhn-DivContentContainer
+www.tiktok.com##.e1gjoq3k0.css-py8jux-DivModalContainer > .e1gjoq3k2.css-v2a75e-DivModalMask
+www.tiktok.com##.e1gjoq3k7.css-1dw2wty-DivCenterWrapper
+www.tiktok.com##.e1gjoq3k0.css-py8jux-DivModalContainer
+www.tiktok.com##.e1gjoq3k0.tiktok-py8jux-DivModalContainer
+
+! 2024-02-13 https://www.youtube.com
+www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
+
+! 2024-02-18 https://www.gamivo.com
+www.gamivo.com##.ng-star-inserted > .home
+www.gamivo.com##app-root
+
+! 2024-03-03 https://www.youtube.com
+www.youtube.com###panels-full-bleed-container
+
+! 2024-04-02 https://www.youtube.com
+www.youtube.com##.ytp-button.ytp-mute-button
+
+! 2024-04-16 https://www.reddit.com
+www.reddit.com##.pt-md.px-md.w-\[272px\].box-border.bg-neutral-background.overflow-x-hidden.overflow-y-scroll.styled-scrollbars.h-screen-without-header.top-\[56px\].sticky.w-full.block.nd\:visible
+www.reddit.com##.border-r-neutral-border.s\:border-r-sm.border-solid.border-0.m\:block.hidden.order-first.isolate.theme-rpl.left-sidebar
+www.reddit.com##.xs\:block.hidden.rounded-\[8px\].bg-neutral-background-weak > .py-md
+
+! 2024-04-21 https://www.reddit.com
+www.reddit.com##body > div
+
+
+! Jul 31, 2024 https://x.com
+x.com##.r-yz1j6i.r-qo02w8.r-l5o3uw.css-175oi2r
+x.com##.r-1xcajam.r-1hycxz.css-175oi2r
+x.com##.r-4d76ec.css-175oi2r > .r-4d76ec.css-175oi2r
+x.com##.r-4d76ec.css-175oi2r
+
+! Aug 5, 2024 https://www.reddit.com
+www.reddit.com##.border-r-neutral-border.s\:border-r-sm.border-solid.border-0.m\:block.hidden.order-first.isolate.theme-rpl.left-sidebar
+www.reddit.com##span.contents > .m\:block.hidden
+www.reddit.com##.inline-flex.button.justify-center.items-center.button-brand.px-\[var\(--rem14\)\].button-medium.hover\:no-underline.px-sm
+www.reddit.com##.m\:mx-auto.m\:w-\[560px\].m\:pointer-events-auto.m\:block.w-full.justify-stretch.flex
+www.reddit.com##.xs\:mr-sm.mr-xs.my-2xs.items-center.flex
+www.reddit.com##div.text-neutral-content-weak.px-md:nth-of-type(3)
+www.reddit.com##div.text-neutral-content-weak.px-md:nth-of-type(4)
+www.reddit.com##div.text-neutral-content-weak.px-md:nth-of-type(5)
+www.reddit.com##div.text-neutral-content-weak.px-md
+www.reddit.com##span.contents > .m\:block.hidden
+www.reddit.com##span.contents > .items-center.flex.nd\:visible
+www.reddit.com##.m\:mx-auto.m\:w-\[560px\].m\:pointer-events-auto.m\:block.w-full.justify-stretch.flex
+www.reddit.com##.border-r-neutral-border.s\:border-r-sm.border-solid.border-0.m\:block.hidden.order-first.isolate.theme-rpl.left-sidebar
+www.reddit.com##.xs\:h-xl.xs\:w-xl.h-lg.w-lg.justify-center.items-center.flex
+www.reddit.com##.border-neutral-border-weak my-md
+www.reddit.com##div.px-md text-neutral-content-weak
+www.reddit.com##.w-lg.h-lg.shrink-0.rounded-full.overflow-hidden.nd\:bg-neutral-background-selected.nd\:animate-pulse.nd\:block.nd\:visible.avatar
+www.reddit.com##div.flex.flex-row.items-center.flex-nowrap.overflow-hidden.justify-start > award-button
+www.reddit.com##div.flex.flex-row.items-center.flex-nowrap.overflow-hidden.justify-start > slot > shreddit-post-share-button
+www.reddit.com##div > div > slot > shreddit-post-share-button
+www.reddit.com##shreddit-comment-share-button.s\:block.hidden
+www.reddit.com##award-button.s\:block.hidden
+www.reddit.com##shreddit-overflow-menu
+
+! Sep 3, 2024 https://www.reddit.com
+www.reddit.com###right-sidebar-container
+
+! Sep 7, 2024 https://www.reddit.com
+www.reddit.com##.pt-\[var\(--page-y-padding\)\].overflow-visible > faceplate-tracker
+
+
+! Dec 27, 2024 https://gg.deals
+||img.gg.deals/3b/1e/300c797793f27c70c9e2d6b8c17514e67d4c_2560xt1440_Q100.jpg$image
+gg.deals##.with-image.gg-full-content-widget
+
+! Jan 20, 2025 https://www.reddit.com
+www.reddit.com##achievement-progress-toast
+
+! May 4, 2025 https://www.reddit.com
+www.reddit.com##shreddit-ad-post
+
+
+
+
+
+
+
+
+
+!reddit.com##[]:remove-attr()
+!reddit layout changes 6.12.25 (SUPER FAST LOADING)
+reddit.com##body:style(--faceplate-body-padding: 0px !important;)
+reddit.com##body:style(--webkit-font-smoothing: none !important;)
+reddit.com##.fixed-sidebar:style(grid-template-columns: minmax(0, 1fr) minmax(0, 0) !important;)
+reddit.com##body > shreddit-app:style(display: block !important;)
+reddit.com##shreddit-app:style(display: block !important;)
+reddit.com##[is-user-logged-in]:remove-attr(is-user-logged-in)
+reddit.com##[isUserLoggedIn]:remove-attr(isUserLoggedIn)
+reddit.com##[user-logged-in]:remove-attr(user-logged-in)
+reddit.com##shreddit-app[is-user-logged-in]:remove-attr(is-user-logged-in)
+reddit.com##shreddit-app[isUserLoggedIn]:remove-attr(isUserLoggedIn)
+reddit.com##shreddit-app[user-logged-in]:remove-attr(user-logged-in)
+reddit.com##svg > ellipse.snoo-cls-3
+reddit.com##devvit-effect-wrapper[loid]:remove-attr(loid)
+reddit.com##[loid]:remove-attr(loid)
+reddit.com##[should-track-position]:remove-attr(should-track-position)
+reddit.com##[devicetype]:remove-attr(devicetype)
+reddit.com##[importance]:remove-attr(importance)
+reddit.com##[data-src]:remove-attr(data-src)
+reddit.com##[correlation-id]:remove-attr(correlation-id)
+reddit.com##[feed-correlation-id]:remove-attr(feed-correlation-id)
+reddit.com##[routename]:remove-attr(routename)
+reddit.com##[ctn]:remove-attr(ctn)
+reddit.com##[user-language]:remove-attr(user-language)
+reddit.com##[comments-partial-ssr]:remove-attr(comments-partial-ssr)
+reddit.com##[clienthash]:remove-attr(clienthash)
+reddit.com##[microapp-deployment]:remove-attr(microapp-deployment)
+reddit.com##[microapp-pool]:remove-attr(microapp-pool)
+reddit.com##[aria-live]:remove-attr(aria-live)
+reddit.com##[subredditdescription]:remove-attr(subredditdescription)
+reddit.com##[id]:remove-attr(id)
+reddit.com##[data-scroll-restore]:remove-attr(data-scroll-restore)
+reddit.com##body > shreddit-app > div.grid-container.theme-rpl.grid.flex-nav-expanded > div > div > div
+reddit.com##[nonce]:remove-attr(nonce)
+reddit.com##[hidden]:remove-attr(hidden)
+reddit.com##[award-icon-url]:remove-attr(award-icon-url)
+reddit.com##[award-count]:remove-attr(award-count)
+reddit.com##[award-id]:remove-attr(award-id)
+reddit.com##[moderation-verdict]:remove-attr(moderation-verdict)
+reddit.com##[previous-actions-feature]:remove-attr(previous-actions-feature)
+reddit.com##[item-state]:remove-attr(item-state)
+reddit.com##[is-crosspostable]:remove-attr(is-crosspostable)
+reddit.com##[is-awardable]:remove-attr(is-awardable)
+reddit.com##[is-embeddable]:remove-attr(is-embeddable)
+reddit.com##[is-desktop-viewport]:remove-attr(is-desktop-viewport)
+reddit.com##[is-link-post]:remove-attr(is-link-post)
+reddit.com##[icon]:remove-attr(icon)
+reddit.com##[is-subscribed]:remove-attr(is-subscribed)
+reddit.com##[data-expected-lcp]:remove-attr(data-expected-lcp)
+reddit.com##[expanded]:remove-attr(expanded)
+reddit.com##[data-ks-item]:remove-attr(data-ks-item)
+!reddit.com##[]:remove-attr() NEWERRRRRRRRR
+reddit.com##shreddit-app.grid-container.flex-nav-expanded:style(--flex-nav-width: 0px !important; padding-left: 0 !important;)
+reddit.com##shreddit-post.hover\:bg-neutral-background-hover:style(background-color: transparent !important;)
+reddit.com##shreddit-post.px-md:style(padding-left: 0 !important; padding-right: 0 !important;)
+reddit.com##shreddit-app .grid-container.flex-nav-expanded:style(--flex-nav-width: 0px !important;)
+reddit.com##shreddit-app .gap-lg:style(gap: 0 !important;)
+reddit.com##shreddit-feed .border-solid:style(border-style: none !important;)
+reddit.com##button:style(color: #FFFFFF !important;)
+reddit.com##.theme-dark, .theme-light, :root:style(color: FFFFFF !important;)
+reddit.com##shreddit-media-ui:style(--max-height: min(100%))
+reddit.com##svg:style(fill: Orange !important)
+
+! Jun 12, 2025 https://www.reddit.com
+www.reddit.com##shreddit-post-overflow-menu
+www.reddit.com##shreddit-video-settings
+reddit.com##Button.min-h-\[42px\].min-w-\[42px\].p-0.bg-transparent.border-none.transition-all.pointer-events-auto.enabled\:cursor-pointer.enabled\:hover\:scale-\[1\.2\].disabled\:opacity-60.embed-s\:hidden.caption-button
+reddit.com##button.min-h-\[42px\].min-w-\[42px\].p-0.bg-transparent.border-none.transition-all.pointer-events-auto.enabled\:cursor-pointer.enabled\:hover\:scale-\[1\.2\].disabled\:opacity-60.fullscreen-button
+reddit.com##shreddit-volume-slider > button
+reddit.com##shreddit-post-share-button
+reddit.com##div.flex.justify-center.self-start.py-\[2px\].bg-neutral-background.relative.mt-\[6px\] > button
+reddit.com##details > summary > div.flex.justify-center > button
+reddit.com###cancel-pdp-comment-search-button
+reddit.com##comment-body-header > div > shreddit-comments-sort-dropdown > search-dynamic-id-cache-controller
+www.reddit.com##reddit-skip-to-sidebar
+
+!Reddit.com 6.13.25 new
+reddit.com##div.flex.flex-none.flex-row.items-center.flex-nowrap.gap-2xs.pt-\[2px\]
+
+!Changes all button colors
+!reddit.com##button:style(background-color: purple !important; color: white !important; border: none !important;)
+!changes just comments button colors
+reddit.com##shreddit-comment-action-row > faceplate-tracker > button:style(background-color: transparent !important; color: white !important; border: none !important;)
+
+reddit.com##text-action-downvote:style(background-color: purple !important; color: white !important; border: none !important;)
+
+!reddit.com 6.13.25
+reddit.com##[ad-user-targeting-info]:remove-attr(ad-user-targeting-info)
+reddit.com##[target]:remove-attr(target)
+reddit.com##[click-location]:remove-attr(click-location)
+reddit.com##[post-outbound-link]:remove-attr(post-outbound-link)
+reddit.com##[disable-keyboard-nav]:remove-attr(disable-keyboard-nav)
+reddit.com##[impression-id]:remove-attr(impression-id)
+reddit.com##shreddit-dynamic-ad-link
+reddit.com##shreddit-ad-post
+! reddit.com##[src]:remove-class(https://www.redditstatic.com/shreddit/en-US/app-selector-client-js-15e80771.js)
+
+reddit.com##+js(abort-current-script, ad-event-tracker)
+reddit.com##+js(abort-current-script, notifications-inbox-client)
+reddit.com##+js(abort-current-script, search-input-desktop-client)
+reddit.com##+js(abort-current-script, render-toast)
+reddit.com##+js(abort-current-script, header-action-item-inbox-client)
+reddit.com##+js(abort-current-script, reddit-chat-client)
+reddit.com##+js(abort-current-script, in-feed-community-recs-client)
+||reddit.com/svc/shreddit/reddit-chat
+||googletagmanager.com/gtag/js?id=AW-788729857
+
+
+
+||www.redditstatic.com/shreddit/en-US/search-input-desktop-client-js-8463a0eb.js$script,domain=reddit.com
+reddit.com##script[src*="search-input-desktop-client-js-8463a0eb.js"]
+||www.redditstatic.com/shreddit/en-US/ad-event-tracker-16495e92.js$script,domain=reddit.com
+||www.redditstatic.com/shreddit/en-US/notifications-inbox-client-js-566d829f.js$script,domain=reddit.com
+||www.redditstatic.com/shreddit/en-US/search-input-desktop-client-js-8463a0eb.js$script,domain=reddit.com
+||www.redditstatic.com/shreddit/en-US/render-toast-9fc9646e.js$script,domain=reddit.com
+||www.redditstatic.com/shreddit/en-US/header-action-item-inbox-client-js-6042247e.js$script,domain=reddit.com
+||www.redditstatic.com/shreddit/en-US/reddit-chat-client-js-e2ea3618.js$script,domain=reddit.com
+||www.redditstatic.com/shreddit/en-US/in-feed-community-recs-client-js-7a6ecce4.js$script,domain=reddit.com
+reddit.com##script[src*="ad-event-tracker-16495e92.js"]
+reddit.com##script[src*="notifications-inbox-client-js-566d829f.js"]
+reddit.com##script[src*="search-input-desktop-client-js-8463a0eb.js"]
+reddit.com##script[src*="render-toast-9fc9646e.js"]
+reddit.com##script[src*="header-action-item-inbox-client-js-6042247e.js"]
+reddit.com##script[src*="reddit-chat-client-js-e2ea3618.js"]
+reddit.com##script[src*="in-feed-community-recs-client-js-7a6ecce4.js"]
+
+reddit.com##+js(abort-current-script, left-nav-client)
+reddit.com##+js(abort-current-script, hui-helpers-client)
+reddit.com##+js(abort-current-script, mod-content-state-indicators-client)
+reddit.com##+js(abort-current-script, hui-translation-button-client)
+reddit.com##+js(abort-current-script, left-nav-multireddits-section-client)
+reddit.com##+js(abort-current-script, mod-removal-reason-form-client)
+reddit.com##+js(abort-current-script, subreddit-right-rail-client)
+reddit.com##+js(abort-current-script, viral-community-client)
+||redditstatic.com/shreddit/en-US/left-nav-client-js-e839e604.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/hui-helpers-client-js-21ff8b1d.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/mod-content-state-indicators-client-js-a5c2a79f.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/hui-translation-button-client-js-7a34b8d3.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/left-nav-multireddits-section-client-js-a23fadff.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/mod-removal-reason-form-client-js-a08cd3c5.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/subreddit-right-rail-client-js-e5e66038.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/viral-community-client-js-2074bf81.js$script,domain=reddit.com
+reddit.com##script[src*="left-nav-client-js-e839e604.js"]
+reddit.com##script[src*="hui-helpers-client-js-21ff8b1d.js"]
+reddit.com##script[src*="mod-content-state-indicators-client-js-a5c2a79f.js"]
+reddit.com##script[src*="hui-translation-button-client-js-7a34b8d3.js"]
+reddit.com##script[src*="left-nav-multireddits-section-client-js-a23fadff.js"]
+reddit.com##script[src*="mod-removal-reason-form-client-js-a08cd3c5.js"]
+reddit.com##script[src*="subreddit-right-rail-client-js-e5e66038.js"]
+reddit.com##script[src*="viral-community-client-js-2074bf81.js"]
+
+||redditstatic.com/shreddit/en-US/feed-ad-client-js-f58f605b.js$script,domain=reddit.com
+reddit.com##script[src*="feed-ad-client-js-f58f605b.js"]
+
+||redditstatic.com/shreddit/en-US/user-hover-card-client-js-718cfe27.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/shreddit-overflow-menu-9a3a2ddd.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/report-form-client-js-a88a29e0.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/report-flow-provider-client-js-2ecedfb2.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/recommendation-context-overflow-menu-2966ce7f.js$script,domain=reddit.com
+reddit.com##script[src*="user-hover-card-client-js-718cfe27.js"]
+reddit.com##script[src*="shreddit-overflow-menu-9a3a2ddd.js"]
+reddit.com##script[src*="report-form-client-js-a88a29e0.js"]
+reddit.com##script[src*="report-flow-provider-client-js-2ecedfb2.js"]
+reddit.com##script[src*="recommendation-context-overflow-menu-2966ce7f.js"]
+
+! Reddit Upvote / SVGs background color & border 6.17.25
+reddit.com##button:style(border-left-width:0px!important;border-bottom-width:0px!important;border-right-width:0px!important;border-top-width:0px!important;padding-left:0px!important;padding-right:0px!important;padding-top:0px!important;padding-bottom:0px!important;margin-right:5px!important;margin-top:0px!important;margin-left:5px!important;)
+reddit.com##button:style(appearance:none!important;-webkit-appearance:none!important;background-color:transparent!important;border-style:none!important;border-color:transparent!important;color:transparent!important;)
+
+! Reddit Post Feed Comment Button Text
+reddit.com##div.shreddit-post-container.flex.gap-sm.flex-row.items-center.flex-nowrap.justify-start > a:style(display:inline-flex!important;align-items:center!important;justify-content:center!important;color:#333d42!important;text-decoration:none!important;)
+! Reddit - Comment Section - More Replies Button (Icon getting cut off added margin)
+reddit.com##button > span.text-neutral-content-strong.mr-xs.flex.items-center > svg:style(border-left-width:0px!important;border-bottom-width:0px!important;border-right-width:0px!important;border-top-width:0px!important;padding-left:0px!important;padding-right:0px!important;padding-top:0px!important;padding-bottom:0px!important;margin-right:0px!important;margin-top:2px!important;margin-left:2px!important;)
+
+! Reddit - Comment Section - Remove grey comment chain line
+reddit.com##details > div > div.absolute.top-0.left-0.bottom-0.w-lg.xs\:w-xl.flex.justify-center.items-center.z-0.cursor-pointer.group.mb-sm
+
+! reddit - Comment Section - Each comment was indented below username this removes it
+reddit.com###comment-children > div
+reddit.com##details > div > div:nth-child(1):style(padding-left: 0px !important;)
+reddit.com##details > div > div:nth-child(2):style(padding-left: 0px !important;)
+reddit.com##details > div > div:nth-child(3):style(padding-left: 0px !important;)
+
+! Jun 17, 2025 https://www.reddit.com
+www.reddit.com##.nd\:visible.hidden.community-highlight-carousel
+
+! Fixes preview images when click on to see full picture rather than getting cut off
+reddit.com##.dialog:style(justify-content: space-around!important; flex-direction: column!important; flex-wrap: nowrap!important; align-content: center!important;)
+
+! Fixes youtube embed getting cutoff at bottom
+reddit.com##lite-youtube:style(max-width: none!important;)
+reddit.com##shreddit-aspect-ratio:style(--aspect-ratio: 1.7777777778!important;--max-height: 5000px!important;--in-height: 220px!important;)
+
+! Jun 17, 2025 https://www.reddit.com ! Removes icon chat button from header
+www.reddit.com##span.contents > .nd\:visible
+
+! Remove reddit logo icon from header
+reddit.com##span.pr-0.s\:pr-xs.flex.items-center
+
+! Remove reddit logo
+||redditstatic.com/shreddit/assets/favicon/*.png
+||external-preview.redd.it/X3dq7BwWSNeUHhYVAwg9EWZnzdW0rDaEwG8X76Th8PI.jpg?auto=webp&s=41609c39ac55f81573d212eaf4cf408bb74a3170
+||redditstatic.com/shreddit/assets/favicon/*.json
+
+!Remove post share button when viewing post
+www.reddit.com##.relative.share-dropdown-menu
+
+! ====================== LEAVE ALONE ============================
+! redditstatic.com/shreddit/en-US/rpl-popper-967c584c.js
+
+! New test JS removals June 17, 2025
+!||
+!reddit.com##script[src*=""]
+!reddit.com##+js(abort-current-script, )
+!reddit.com##+js(abort-on-property-read, )
+
+
+||redditstatic.com/shreddit/en-US/flex-left-nav-container.js$script,domain=reddit.com
+reddit.com##script[src*="flex-left-nav-container-fc0395c1.js"]
+reddit.com##+js(abort-current-script, flex-left-nav-container-fc0395c1.js)
+reddit.com##+js(abort-on-property-read, flex-left-nav-container-fc0395c1.js)
+reddit.com##+js(remove-cache-storage-item, flex-left-nav-container-fc0395c1.js)
+reddit.com##+js(no-fetch-if, flex-left-nav-container-fc0395c1.js)
+reddit.com##+js(norafif, flex-left-nav-container-fc0395c1.js)
+
+
+! ====================== UBlock Universal Items ============================
+reddit.com##+js(remove-cache-storage-item, *)
+reddit.com##+js(set-local-storage-item, *, $remove$)
+reddit.com##+js(set-session-storage-item, *, $remove$)
+reddit.com##+js(rmnt, *, quitAfter, 10)
+reddit.com##+js(nosiif, *)
+reddit.comcom##+js(norafif, *)
+
+! ||redditstatic.com/shreddit/en-US/shell-5e0f183a.js
+! reddit.com##script[src*="shell-5e0f183a.js"]
+! reddit.com##+js(abort-current-script, shell-5e0f183a.js)
+! reddit.com##+js(abort-on-property-read, shell-5e0f183a.js)
+
+! =============EXCEL TEST CSS==============
+! ||redditstatic.com/shreddit/notifications-inbox-client-css-*.css
+! ||redditstatic.com/shreddit/qr-code-persistent-button-upsell-client-css-*.css
+! ||redditstatic.com/shreddit/header-large-client-css-*.css
+! ||redditstatic.com/shreddit/header-client-css-*.css
+! ||redditstatic.com/shreddit/pdp-client-css-f75d23a9.css
+! ||redditstatic.com/shreddit/pdp-post-client-css-a66fccb6.css
+! ||redditstatic.com/shreddit/comment-forest-client-css-c71afc65.css
+! ||redditstatic.com/shreddit/subreddit-right-rail-client-css-392e1eac.css
+
+! Causes main feed to site on right side of screen
+! ||redditstatic.com/shreddit/hui-grid-client-css-*.css
+
+! =============EXCEL TEST==============
+! ||redditstatic.com/shreddit/en-US/comment-composer-fragment-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/comment-composer-host*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/community-author-flair-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/community-spotlight-carousel-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/compact-post-community-recommendations-carousel-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/devvit-context-actions*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/dsa-transparency-modal-provider-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/feed-ad-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/header-action-item-user-drawer-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/header-small-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/hui-grid-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/hui-helpers-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/hui-helpers-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/hui-translation-button-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/hui-translation-button-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/index-logged-in*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/left-nav-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/left-nav-multireddits-section-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/list-style-community-recommendations-mobile-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/mod-action-overlays-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/mod-content-state-indicators-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/mod-inline-actions-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/mod-removal-reason-form-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/mod-removal-reason-form-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/multi-content-reporting-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/notifications-inbox-client-js**.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/pdp-ad-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/pdp-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/pdp-post-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/pdp-right-rail-content-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/recommendation-context-overflow-menu*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/recommendation-context-overflow-menu*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/reddit-skip-to-sidebar*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/report-flow-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/report-flow-provider-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/report-flow-provider-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/report-form-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/report-form-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/shreddit-comment-share-button*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/shreddit-overflow-menu*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/shreddit-post-overflow-menu*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/subreddit-header-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/subreddit-posting-eligibility-modal-content-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/subreddit-right-rail-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/unpacking-overflow-menu*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/user-hover-card-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/user-mod-actions*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/user-mod-actions-bottom-sheet*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/viral-community-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/viral-community-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/w3-report-from-v2-event*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/ad-event-tracker*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/header-action-item-inbox-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/in-feed-community-recs-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/notifications-inbox-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/reddit-chat-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/render-toast*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/search-input-desktop-client*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/feed-post-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/TinyGesture-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/achievements-events-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/ad-event-tracker-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/ads-carousel-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/age-gate-standalone-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/all-chats-page-recommendations-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/app-selector-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/article-details-feed-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/award-controller-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/awards-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/awardsTelemetryState-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/banned-user-banner-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/base*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/base-translator-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/blurredContent-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/cbau-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/chat-channel-feed-element-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/chat-mobile-xpromo-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/click-card-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/comment-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/comment-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/comment-link-post-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/community-card-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/community-club-highlights-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/community-colors-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/community-highlights-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/community-onboarding-completed-modal-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/community-picker-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/community-spotlight-card-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/community-spotlight-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/compact-post-community-recommendations-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/constants-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/content-action-button-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/content-tags-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/create-post-entry-point-wrapper-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/custom-feed-edit-button-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/deprecated-content-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/dist-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/distinguished-tags-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/dsa-transparency-modal-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/dsa-transparency-modal-provider-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/emoji-template-table-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/errors-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/expandable-mod-reports-base-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/expandable-section-header-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/experiences-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/faceplate-auto-height-animator-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/faceplate-bottom-sheet-header-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/faceplate-expandable-section-helper-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/faceplate-form-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/faceplate-gif-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/faceplate-hovercard-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/faceplate-json-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/faceplate-option-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/faceplate-progress-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/faceplate-radio-input-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/faceplate-select-text-input-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/faceplate-tabgroup-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/faceplate-tablist-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/faceplate-tabpanel-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/faceplate-textarea-input-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/faceplate-tooltip-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/feedback-tooltip-overflow-menu-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/feeds*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/filterNullish-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/gallery-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/gallery-caption-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/gallery-carousel-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/google-api-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/guides-entrypoint-tooltip-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/header-action-item-chat-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/header-action-item-inbox-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/header-action-item-user-drawer-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/header-large-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/helpers-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/helpers-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/home-feed-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/hotkeys-loader-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/hovercard.base-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/hui-helpers-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/hui-translation-button-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/hui-user-drawer-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/icon-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/icon-mod-fill-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/icon-users-fill-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/in-feed-community-recs-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/index-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/left-nav-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/left-nav-multireddits-section-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/left-nav-resources-section-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/left-nav-top-section-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/links-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/list-style-community-recommendations-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/lite-yt-embed-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/matrix-js-sdk-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/media-lightbox-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/mod-bulk-actions-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/mod-content-state-indicators-client-js-3*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/mod-dropdown-closer-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/mod-log-takedown-preview-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/mod-post-list-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/mod-queue-item-comment-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/mod-queue-pdp-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/mod-removal-reason-form-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/mod-verdict-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/modActions-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/models-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/multi-content-reporting-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/overflow-menu-actions-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/partial-feed-post-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/password-recovery-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/pdp-back-button-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/pdp-seeker-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/post-consume-tracker-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/postFlair-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/profile-creation-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/profile-related-keywords-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/promote-post-actions-controller-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/promote-post-button-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/qr-code-modal-upsell-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/qr-code-persistent-button-upsell-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/recent-posts-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/recommendation-context-overflow-menu-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/recommends-feed-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/reddit-chat-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/reddit-header-action-items-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/reddit-sidebar-nav-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/render-toast-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/report-flow-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/report-flow-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/report-flow-provider-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/report-form-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/reputation-recaptcha-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/rpl-coachmark-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/rpl-coachmark-card-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/rpl-dropdown-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/rpl-popper-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/screen-reader-alert-outlet-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/search-dynamic-id-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/search-input-desktop-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/search-params-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/search-telemetry-tracker-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/search-typeahead-expandable-section-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/select-controller-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/settings-controller-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/settings-page-base-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/shell-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/shop-gallery-data-fetcher-client-js-f*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/show-more-grid-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/shreddit-coachmark-trigger-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/shreddit-comment-action-row-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/shreddit-community-search-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/shreddit-distinguished-post-tags-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/shreddit-dynamic-ad-link-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/shreddit-embed-4*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/shreddit-feed-page-loading-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/shreddit-interactable-element-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/shreddit-layout-event-setter-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/shreddit-media-lightbox-listener-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/shreddit-mod-comment-*.js$script,domain=reddit.com
+
+! ||redditstatic.com/shreddit/en-US/shreddit-post-overflow-menu-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/shreddit-post-share-button-*.js$script,domain=reddit.com
+
+
+! ======================= KEEP ENABLED =================
+
+! ======================= KEEP DISABLED =================
+! Breaks embed reddit video
+! ||redditstatic.com/shreddit/en-US/upload-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/shreddit-player-2-*.js$script,domain=reddit.com
+! Breaks comments / buttons
+! ||redditstatic.com/shreddit/en-US/trends-*.js$script,domain=reddit.com
+! Breaks post toolbar
+! ||redditstatic.com/shreddit/en-US/with-share-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/user-flair-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/v2-events-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/validate-image-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/translation-intervention-modal-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/text-input-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/tooltip.base-*.js$script,domain=reddit.com
+
+!Unknown
+! ||redditstatic.com/shreddit/en-US/zoomable-img-*.js$script,domain=reddit.com
+
+! ========== Likely Safe ================
+
+! ||redditstatic.com/shreddit/en-US/shreddit-post-translator-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/shreddit-slotter-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/shreddit-spoiler-*.js$script,domain=reddit.com
+
+! ||redditstatic.com/shreddit/en-US/sidebar-ad-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/smart-escalations-provider-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/start-end-ama-actions-controlIer-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/submit-report-helper-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/subreddit-posting-eligibility-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/suggested-search-queries-client-js-*.js$script,domain=reddit.com
+
+||redditstatic.com/shreddit/en-US/tab-button-*.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/translation-feedback-modal-client-js-*.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/types-*.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/unpacking-overflow-menu-*.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/utils-*.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/with-post-actions-*.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/viral-community-client-js-*.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/w3-report-from-v2-event-*.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/with-ad-observer-*.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/xpromo-*.js$script,domain=reddit.com
+||redditstatic.com/shreddit/en-US/zendesk-step-helper-*.js$script,domain=reddit.com
+
