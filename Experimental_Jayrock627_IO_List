@@ -1,13 +1,3 @@
-! QuickBooks Feb 3rd 2025
-||protoolsmainstorage.blob.core.windows.net/adstorage/Tax1099_Righttool.gif$image
-||logging.api.intuit.com/v2/log/message^
-||eventbus.intuit.com/v2/segment/sbseg-qbo-clickstream/*
-||eventbus.intuit.com/v2/intuit-clickstream^
-||rum.api.intuit.com/vl/rum/web^
-||rum.api.intuit.com/vl/trace^
-||zion.qbo.intuit.com/api/vl/logs^
-||uxfabric.intuitcdn.net/dtc/prod/expenses-forms-ui/*/expenses-forms-ui/expense/*/config.json^
-
 ! Feb 4, 2025 https://www.reddit.com
 www.reddit.com###right-sidebar-container
 www.reddit.com###left-sidebar
@@ -926,15 +916,15 @@ reddit.comcom##+js(norafif, *)
 ! ||redditstatic.com/shreddit/en-US/subreddit-posting-eligibility-*.js$script,domain=reddit.com
 ! ||redditstatic.com/shreddit/en-US/suggested-search-queries-client-js-*.js$script,domain=reddit.com
 
-||redditstatic.com/shreddit/en-US/tab-button-*.js$script,domain=reddit.com
-||redditstatic.com/shreddit/en-US/translation-feedback-modal-client-js-*.js$script,domain=reddit.com
-||redditstatic.com/shreddit/en-US/types-*.js$script,domain=reddit.com
-||redditstatic.com/shreddit/en-US/unpacking-overflow-menu-*.js$script,domain=reddit.com
-||redditstatic.com/shreddit/en-US/utils-*.js$script,domain=reddit.com
-||redditstatic.com/shreddit/en-US/with-post-actions-*.js$script,domain=reddit.com
-||redditstatic.com/shreddit/en-US/viral-community-client-js-*.js$script,domain=reddit.com
-||redditstatic.com/shreddit/en-US/w3-report-from-v2-event-*.js$script,domain=reddit.com
-||redditstatic.com/shreddit/en-US/with-ad-observer-*.js$script,domain=reddit.com
-||redditstatic.com/shreddit/en-US/xpromo-*.js$script,domain=reddit.com
-||redditstatic.com/shreddit/en-US/zendesk-step-helper-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/tab-button-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/translation-feedback-modal-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/types-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/unpacking-overflow-menu-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/utils-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/with-post-actions-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/viral-community-client-js-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/w3-report-from-v2-event-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/with-ad-observer-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/xpromo-*.js$script,domain=reddit.com
+! ||redditstatic.com/shreddit/en-US/zendesk-step-helper-*.js$script,domain=reddit.com
 
