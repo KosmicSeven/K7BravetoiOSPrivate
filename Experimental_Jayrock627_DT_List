@@ -576,14 +576,16 @@ reddit.com##[is-nsfw-enabled]:remove-attr(is-nsfw-enabled)
 reddit.com##[shreddit-content-tags]:remove-attr(shreddit-content-tags)
 reddit.com##shreddit-blurred-container > div:nth-child(1) > div:style(max-height: 0px !important;)
 reddit.com##shreddit-post > div > shreddit-blurred-container > div.h-full:style(visibility: visible !important;)
+reddit.com##[microapp-pool]:remove-attr(microapp-pool)
+reddit.com##[auth-flow-manager]:remove-attr(auth-flow-manager)
 
 ! Today 8/6/25
 ! ||redditstatic.com/*/alert-controller-client-js-*.js$script,domain=reddit.com
-! ||redditstatic.com/*/auth-flow-controller-*.js$script,domain=reddit.com
-! ||redditstatic.com/*/auth-flow-link-*.js$script,domain=reddit.com
-! ||redditstatic.com/*/auth-flow-sso-buttons-*.js$script,domain=reddit.com
-! ||redditstatic.com/*/auth-flow-trigger-client-*.js$script,domain=reddit.com
-! ||redditstatic.com/*/auth-overlay-client-js-*.js$script,domain=reddit.com
+||redditstatic.com/*/auth-flow-controller-*.js$script,domain=reddit.com
+||redditstatic.com/*/auth-flow-link-*.js$script,domain=reddit.com
+||redditstatic.com/*/auth-flow-sso-buttons-*.js$script,domain=reddit.com
+||redditstatic.com/*/auth-flow-trigger-client-*.js$script,domain=reddit.com
+||redditstatic.com/*/auth-overlay-client-js-*.js$script,domain=reddit.com
 ! ||redditstatic.com/*/comment-preview-unit-client-js-*.js$script,domain=reddit.com
 ! ||redditstatic.com/*/_concat-pdp_*.js$script,domain=reddit.com
 ! ||redditstatic.com/*/google-one-tap-client-js-*.js$script,domain=reddit.com
@@ -594,7 +596,7 @@ reddit.com##shreddit-post > div > shreddit-blurred-container > div.h-full:style(
 ! ||redditstatic.com/*/left-nav-topic-tracker-*.js$script,domain=reddit.com
 ! ||redditstatic.com/*/left-nav-topics-section-client-js-*.js$script,domain=reddit.com
 ! ||redditstatic.com/*/nsfw-bypassable-modal-client-js-*.js$script,domain=reddit.com
-! ||redditstatic.com/*/pdp-persistent-auth-unit-client-js-*.js$script,domain=reddit.com
+||redditstatic.com/*/pdp-persistent-auth-unit-client-js-*.js$script,domain=reddit.com
 ! ||redditstatic.com/*/scroll-blocker-*.js$script,domain=reddit.com
 ! ||redditstatic.com/*/shreddit-comment-tree-stats-exp-client-js-*.js$script,domain=reddit.com
 ! ||redditstatic.com/*/shreddit-status-icons-*.js$script,domain=reddit.com
