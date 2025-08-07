@@ -599,7 +599,7 @@ reddit.comcom##+js(norafif, *)
 ||redditstatic.com/*/shreddit-comment-tree-stats-exp-client-js-*.js$script,domain=reddit.com
 ||redditstatic.com/*/shreddit-status-icons-*.js$script,domain=reddit.com
 ||redditstatic.com/*/unicode-utils-*.js$script,domain=reddit.com
-||redditstatic.com/*/with-recaptcha-*.js$script,domain=reddit.com
+! ||redditstatic.com/*/with-recaptcha-*.js$script,domain=reddit.com
 ||redditstatic.com/*/achievements-events-client-js-*.js$script,domain=reddit.com
 
 
@@ -614,7 +614,7 @@ reddit.comcom##+js(norafif, *)
 ||redditstatic.com/*/scroll-blocker-*.js$script,domain=reddit.com
 ||redditstatic.com/*/shreddit-comment-tree-stats-exp-client-js-*.js$script,domain=reddit.com
 ||redditstatic.com/*/shreddit-status-icons-*.js$script,domain=reddit.com
-||redditstatic.com/*/with-recaptcha-*.js$script,domain=reddit.com
+! ||redditstatic.com/*/with-recaptcha-*.js$script,domain=reddit.com
 
 
 
@@ -782,7 +782,7 @@ reddit.com##[auth-flow-manager]:remove-attr(auth-flow-manager)
 ||redditstatic.com/*/report-flow-client*.js$script,domain=reddit.com
 ||redditstatic.com/*/report-flow-provider-client*.js$script,domain=reddit.com
 ||redditstatic.com/*/report-form-client*.js$script,domain=reddit.com
-||redditstatic.com/*/reputation-recaptcha-*.js$script,domain=reddit.com
+! ||redditstatic.com/*/reputation-recaptcha-*.js$script,domain=reddit.com
 ||redditstatic.com/*/rpl-coachmark-card-*.js$script,domain=reddit.com
 ||redditstatic.com/*/rpl-dropdown-*.js$script,domain=reddit.com
 ||redditstatic.com/*/rpl-popper-*.js$script,domain=reddit.com
@@ -913,6 +913,7 @@ reddit.com##[share]:remove-attr(slot)
 reddit.com##[post-flair]:remove-attr(slot)
 reddit.com##[data-faceplate-tracking-context]:remove-attr(data-faceplate-tracking-context)
 reddit.com##[seeker-session]:remove-attr(seeker-session)
+reddit.com##[serverRenderId]:remove-attr(serverRenderId)
 
 ! 1) Make the blurred preview’s real content show
 reddit.com##shreddit-blurred-container > div:nth-child(2):style(visibility:visible!important)
@@ -1167,7 +1168,7 @@ reddit.com##+js(abort-current-script, render-toast-[0-9a-z]+\.js$/)
 reddit.com##+js(abort-current-script, report-flow-client[0-9a-z]+\.js$/)
 reddit.com##+js(abort-current-script, report-flow-provider-client[0-9a-z]+\.js$/)
 reddit.com##+js(abort-current-script, report-form-client[0-9a-z]+\.js$/)
-reddit.com##+js(abort-current-script, reputation-recaptcha-[0-9a-z]+\.js$/)
+! reddit.com##+js(abort-current-script, reputation-recaptcha-[0-9a-z]+\.js$/)
 reddit.com##+js(abort-current-script, rpl-coachmark-card-[0-9a-z]+\.js$/)
 reddit.com##+js(abort-current-script, rpl-dropdown-[0-9a-z]+\.js$/)
 reddit.com##+js(abort-current-script, rpl-popper-[0-9a-z]+\.js$/)
@@ -1231,7 +1232,7 @@ reddit.com##+js(abort-current-script, viral-community-client-js-[0-9a-z]+\.js$/)
 reddit.com##+js(abort-current-script, w3-report-from-v2-event[0-9a-z]+\.js$/)
 reddit.com##+js(abort-current-script, with-ad-observer-[0-9a-z]+\.js$/)
 reddit.com##+js(abort-current-script, with-post-actions-[0-9a-z]+\.js$/)
-reddit.com##+js(abort-current-script, with-recaptcha-[0-9a-z]+\.js$/)
+! reddit.com##+js(abort-current-script, with-recaptcha-[0-9a-z]+\.js$/)
 reddit.com##+js(abort-current-script, with-share-[0-9a-z]+\.js$/)
 reddit.com##+js(abort-current-script, xpromo-[0-9a-z]+\.js$/)
 reddit.com##+js(abort-current-script, zendesk-step-helper-[0-9a-z]+\.js$/)
@@ -1385,7 +1386,7 @@ reddit.com##+js(abort-on-property-read, render-toast-[0-9a-z]+\.js$/)
 reddit.com##+js(abort-on-property-read, report-flow-client[0-9a-z]+\.js$/)
 reddit.com##+js(abort-on-property-read, report-flow-provider-client[0-9a-z]+\.js$/)
 reddit.com##+js(abort-on-property-read, report-form-client[0-9a-z]+\.js$/)
-reddit.com##+js(abort-on-property-read, reputation-recaptcha-[0-9a-z]+\.js$/)
+! reddit.com##+js(abort-on-property-read, reputation-recaptcha-[0-9a-z]+\.js$/)
 reddit.com##+js(abort-on-property-read, rpl-coachmark-card-[0-9a-z]+\.js$/)
 reddit.com##+js(abort-on-property-read, rpl-dropdown-[0-9a-z]+\.js$/)
 reddit.com##+js(abort-on-property-read, rpl-popper-[0-9a-z]+\.js$/)
@@ -1449,7 +1450,7 @@ reddit.com##+js(abort-on-property-read, viral-community-client-js-[0-9a-z]+\.js$
 reddit.com##+js(abort-on-property-read, w3-report-from-v2-event[0-9a-z]+\.js$/)
 reddit.com##+js(abort-on-property-read, with-ad-observer-[0-9a-z]+\.js$/)
 reddit.com##+js(abort-on-property-read, with-post-actions-[0-9a-z]+\.js$/)
-reddit.com##+js(abort-on-property-read, with-recaptcha-[0-9a-z]+\.js$/)
+! reddit.com##+js(abort-on-property-read, with-recaptcha-[0-9a-z]+\.js$/)
 reddit.com##+js(abort-on-property-read, with-share-[0-9a-z]+\.js$/)
 reddit.com##+js(abort-on-property-read, xpromo-[0-9a-z]+\.js$/)
 reddit.com##+js(abort-on-property-read, zendesk-step-helper-[0-9a-z]+\.js$/)
@@ -1603,7 +1604,7 @@ reddit.com##+js(no-fetch-if, render-toast-[0-9a-z]+\.js$/)
 reddit.com##+js(no-fetch-if, report-flow-client[0-9a-z]+\.js$/)
 reddit.com##+js(no-fetch-if, report-flow-provider-client[0-9a-z]+\.js$/)
 reddit.com##+js(no-fetch-if, report-form-client[0-9a-z]+\.js$/)
-reddit.com##+js(no-fetch-if, reputation-recaptcha-[0-9a-z]+\.js$/)
+! reddit.com##+js(no-fetch-if, reputation-recaptcha-[0-9a-z]+\.js$/)
 reddit.com##+js(no-fetch-if, rpl-coachmark-card-[0-9a-z]+\.js$/)
 reddit.com##+js(no-fetch-if, rpl-dropdown-[0-9a-z]+\.js$/)
 reddit.com##+js(no-fetch-if, rpl-popper-[0-9a-z]+\.js$/)
@@ -1667,7 +1668,7 @@ reddit.com##+js(no-fetch-if, viral-community-client-js-[0-9a-z]+\.js$/)
 reddit.com##+js(no-fetch-if, w3-report-from-v2-event[0-9a-z]+\.js$/)
 reddit.com##+js(no-fetch-if, with-ad-observer-[0-9a-z]+\.js$/)
 reddit.com##+js(no-fetch-if, with-post-actions-[0-9a-z]+\.js$/)
-reddit.com##+js(no-fetch-if, with-recaptcha-[0-9a-z]+\.js$/)
+! reddit.com##+js(no-fetch-if, with-recaptcha-[0-9a-z]+\.js$/)
 reddit.com##+js(no-fetch-if, with-share-[0-9a-z]+\.js$/)
 reddit.com##+js(no-fetch-if, xpromo-[0-9a-z]+\.js$/)
 reddit.com##+js(no-fetch-if, zendesk-step-helper-[0-9a-z]+\.js$/)
@@ -1821,7 +1822,7 @@ reddit.com##+js(norafif, render-toast-[0-9a-z]+\.js$/)
 reddit.com##+js(norafif, report-flow-client[0-9a-z]+\.js$/)
 reddit.com##+js(norafif, report-flow-provider-client[0-9a-z]+\.js$/)
 reddit.com##+js(norafif, report-form-client[0-9a-z]+\.js$/)
-reddit.com##+js(norafif, reputation-recaptcha-[0-9a-z]+\.js$/)
+! reddit.com##+js(norafif, reputation-recaptcha-[0-9a-z]+\.js$/)
 reddit.com##+js(norafif, rpl-coachmark-card-[0-9a-z]+\.js$/)
 reddit.com##+js(norafif, rpl-dropdown-[0-9a-z]+\.js$/)
 reddit.com##+js(norafif, rpl-popper-[0-9a-z]+\.js$/)
@@ -1885,7 +1886,7 @@ reddit.com##+js(norafif, viral-community-client-js-[0-9a-z]+\.js$/)
 reddit.com##+js(norafif, w3-report-from-v2-event[0-9a-z]+\.js$/)
 reddit.com##+js(norafif, with-ad-observer-[0-9a-z]+\.js$/)
 reddit.com##+js(norafif, with-post-actions-[0-9a-z]+\.js$/)
-reddit.com##+js(norafif, with-recaptcha-[0-9a-z]+\.js$/)
+! reddit.com##+js(norafif, with-recaptcha-[0-9a-z]+\.js$/)
 reddit.com##+js(norafif, with-share-[0-9a-z]+\.js$/)
 reddit.com##+js(norafif, xpromo-[0-9a-z]+\.js$/)
 reddit.com##+js(norafif, zendesk-step-helper-[0-9a-z]+\.js$/)
@@ -2039,7 +2040,7 @@ reddit.com##+js(remove-cache-storage-item, render-toast-[0-9a-z]+\.js$/)
 reddit.com##+js(remove-cache-storage-item, report-flow-client[0-9a-z]+\.js$/)
 reddit.com##+js(remove-cache-storage-item, report-flow-provider-client[0-9a-z]+\.js$/)
 reddit.com##+js(remove-cache-storage-item, report-form-client[0-9a-z]+\.js$/)
-reddit.com##+js(remove-cache-storage-item, reputation-recaptcha-[0-9a-z]+\.js$/)
+! reddit.com##+js(remove-cache-storage-item, reputation-recaptcha-[0-9a-z]+\.js$/)
 reddit.com##+js(remove-cache-storage-item, rpl-coachmark-card-[0-9a-z]+\.js$/)
 reddit.com##+js(remove-cache-storage-item, rpl-dropdown-[0-9a-z]+\.js$/)
 reddit.com##+js(remove-cache-storage-item, rpl-popper-[0-9a-z]+\.js$/)
@@ -2103,7 +2104,7 @@ reddit.com##+js(remove-cache-storage-item, viral-community-client-js-[0-9a-z]+\.
 reddit.com##+js(remove-cache-storage-item, w3-report-from-v2-event[0-9a-z]+\.js$/)
 reddit.com##+js(remove-cache-storage-item, with-ad-observer-[0-9a-z]+\.js$/)
 reddit.com##+js(remove-cache-storage-item, with-post-actions-[0-9a-z]+\.js$/)
-reddit.com##+js(remove-cache-storage-item, with-recaptcha-[0-9a-z]+\.js$/)
+! reddit.com##+js(remove-cache-storage-item, with-recaptcha-[0-9a-z]+\.js$/)
 reddit.com##+js(remove-cache-storage-item, with-share-[0-9a-z]+\.js$/)
 reddit.com##+js(remove-cache-storage-item, xpromo-[0-9a-z]+\.js$/)
 reddit.com##+js(remove-cache-storage-item, zendesk-step-helper-[0-9a-z]+\.js$/)
@@ -2257,7 +2258,7 @@ reddit.com##+js(set-local-storage-item, render-toast-[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-local-storage-item, report-flow-client[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-local-storage-item, report-flow-provider-client[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-local-storage-item, report-form-client[0-9a-z]+\.js$/, $remove$)
-reddit.com##+js(set-local-storage-item, reputation-recaptcha-[0-9a-z]+\.js$/, $remove$)
+! reddit.com##+js(set-local-storage-item, reputation-recaptcha-[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-local-storage-item, rpl-coachmark-card-[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-local-storage-item, rpl-dropdown-[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-local-storage-item, rpl-popper-[0-9a-z]+\.js$/, $remove$)
@@ -2321,7 +2322,7 @@ reddit.com##+js(set-local-storage-item, viral-community-client-js-[0-9a-z]+\.js$
 reddit.com##+js(set-local-storage-item, w3-report-from-v2-event[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-local-storage-item, with-ad-observer-[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-local-storage-item, with-post-actions-[0-9a-z]+\.js$/, $remove$)
-reddit.com##+js(set-local-storage-item, with-recaptcha-[0-9a-z]+\.js$/, $remove$)
+! reddit.com##+js(set-local-storage-item, with-recaptcha-[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-local-storage-item, with-share-[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-local-storage-item, xpromo-[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-local-storage-item, zendesk-step-helper-[0-9a-z]+\.js$/, $remove$)
@@ -2475,7 +2476,7 @@ reddit.com##+js(set-session-storage-item, render-toast-[0-9a-z]+\.js$/, $remove$
 reddit.com##+js(set-session-storage-item, report-flow-client[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-session-storage-item, report-flow-provider-client[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-session-storage-item, report-form-client[0-9a-z]+\.js$/, $remove$)
-reddit.com##+js(set-session-storage-item, reputation-recaptcha-[0-9a-z]+\.js$/, $remove$)
+! reddit.com##+js(set-session-storage-item, reputation-recaptcha-[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-session-storage-item, rpl-coachmark-card-[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-session-storage-item, rpl-dropdown-[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-session-storage-item, rpl-popper-[0-9a-z]+\.js$/, $remove$)
@@ -2539,7 +2540,7 @@ reddit.com##+js(set-session-storage-item, viral-community-client-js-[0-9a-z]+\.j
 reddit.com##+js(set-session-storage-item, w3-report-from-v2-event[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-session-storage-item, with-ad-observer-[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-session-storage-item, with-post-actions-[0-9a-z]+\.js$/, $remove$)
-reddit.com##+js(set-session-storage-item, with-recaptcha-[0-9a-z]+\.js$/, $remove$)
+! reddit.com##+js(set-session-storage-item, with-recaptcha-[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-session-storage-item, with-share-[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-session-storage-item, xpromo-[0-9a-z]+\.js$/, $remove$)
 reddit.com##+js(set-session-storage-item, zendesk-step-helper-[0-9a-z]+\.js$/, $remove$)
@@ -2693,7 +2694,7 @@ reddit.com##script[src*="/*/render-toast-"]
 reddit.com##script[src*="/*/report-flow-client"]
 reddit.com##script[src*="/*/report-flow-provider-client"]
 reddit.com##script[src*="/*/report-form-client"]
-reddit.com##script[src*="/*/reputation-recaptcha-"]
+! reddit.com##script[src*="/*/reputation-recaptcha-"]
 reddit.com##script[src*="/*/rpl-coachmark-card-"]
 reddit.com##script[src*="/*/rpl-dropdown-"]
 reddit.com##script[src*="/*/rpl-popper-"]
@@ -2757,7 +2758,7 @@ reddit.com##script[src*="/*/viral-community-client-js-"]
 reddit.com##script[src*="/*/w3-report-from-v2-event"]
 reddit.com##script[src*="/*/with-ad-observer-"]
 reddit.com##script[src*="/*/with-post-actions-"]
-reddit.com##script[src*="/*/with-recaptcha-"]
+! reddit.com##script[src*="/*/with-recaptcha-"]
 reddit.com##script[src*="/*/with-share-"]
 reddit.com##script[src*="/*/xpromo-"]
 reddit.com##script[src*="/*/zendesk-step-helper-"]
