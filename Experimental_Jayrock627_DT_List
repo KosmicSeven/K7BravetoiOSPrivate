@@ -247,7 +247,7 @@ www.reddit.com##shreddit-comment.xs\:px-0.px-md.pt-md shreddit-comment shreddit-
 ! 2023-12-07 https://www.youtube.com
 www.youtube.com###guide-button
 
-! 2023-12-10 https://old.reddit.com
+2023-12-10 https://old.reddit.com
 old.reddit.com##.listingsignupbar.infobar
 old.reddit.com##.side
 
@@ -349,7 +349,7 @@ reddit.com##[microapp-deployment]:remove-attr(microapp-deployment)
 reddit.com##[microapp-pool]:remove-attr(microapp-pool)
 reddit.com##[aria-live]:remove-attr(aria-live)
 reddit.com##[subredditdescription]:remove-attr(subredditdescription)
-reddit.com##[id]:remove-attr(id)
+! reddit.com##[id]:remove-attr(id) (8.7.25 Turned off to expand pictures to full size on click)
 reddit.com##[data-scroll-restore]:remove-attr(data-scroll-restore)
 reddit.com##body > shreddit-app > div.grid-container.theme-rpl.grid.flex-nav-expanded > div > div > div
 reddit.com##[nonce]:remove-attr(nonce)
@@ -703,7 +703,7 @@ reddit.com##[auth-flow-manager]:remove-attr(auth-flow-manager)
 ||redditstatic.com/*/faceplate-tablist-*.js$script,domain=reddit.com
 ||redditstatic.com/*/faceplate-tabpanel-*.js$script,domain=reddit.com
 ||redditstatic.com/*/faceplate-textarea-input-*.js$script,domain=reddit.com
-||redditstatic.com/*/faceplate-tooltip-*.js$script,domain=reddit.com
+! ||redditstatic.com/*/faceplate-tooltip-*.js$script,domain=reddit.com
 ||redditstatic.com/*/feed-ad-client*.js$script,domain=reddit.com
 ||redditstatic.com/*/feedback-tooltip-overflow-menu-*.js$script,domain=reddit.com
 ||redditstatic.com/*/feeds*.js$script,domain=reddit.com
@@ -849,8 +849,8 @@ reddit.com##[auth-flow-manager]:remove-attr(auth-flow-manager)
 ||redditstatic.com/*/with-share-*.js$script,domain=reddit.com
 
 ! ||redditstatic.com/*/xpromo-*.js$script,domain=reddit.com
-! ||redditstatic.com/*/zendesk-step-helper-*.js$script,domain=reddit.com
-! ||redditstatic.com/*/zoomable-img-*.js$script,domain=reddit.com
+||redditstatic.com/*/zendesk-step-helper-*.js$script,domain=reddit.com
+||redditstatic.com/*/zoomable-img-*.js$script,domain=reddit.com
 
 ||redditstatic.com/*/scroll-blocking-*.js$script,domain=reddit.com
 reddit.com##script[src*="/*/scroll-blocking-"]
@@ -911,6 +911,8 @@ reddit.com##[post-flair]:remove-attr(slot)
 reddit.com##[ad-events]:remove-attr(ad-events)
 reddit.com##[share]:remove-attr(slot)
 reddit.com##[post-flair]:remove-attr(slot)
+reddit.com##[data-faceplate-tracking-context]:remove-attr(data-faceplate-tracking-context)
+reddit.com##[seeker-session]:remove-attr(seeker-session)
 
 ! 1) Make the blurred preview’s real content show
 reddit.com##shreddit-blurred-container > div:nth-child(2):style(visibility:visible!important)
@@ -980,8 +982,9 @@ reddit.com##shreddit-recent-communities-data:has(> shreddit-recent-communities-d
 reddit.com##protected-community-modal:remove()
 reddit.com##protected-community-modal:has(> protected-community-modal):remove()
 
-reddit.com##shreddit-media-lightbox:remove()
-reddit.com##shreddit-media-lightbox:has(> shreddit-media-lightbox):remove()
+! 8.7.25 won't let you expand pictures if used
+! reddit.com##shreddit-media-lightbox:remove()
+! reddit.com##shreddit-media-lightbox:has(> shreddit-media-lightbox):remove()
 
 reddit.com##shreddit-ad-post:remove()
 reddit.com##shreddit-ad-post:has(> shreddit-ad-post):remove()
@@ -999,6 +1002,21 @@ reddit.com##shreddit-post-flair:has(> shreddit-post-flair):remove()
 
 reddit.com##.shreddit-loading-spinner:remove()
 reddit.com##shreddit-loading-spinner:has(> shreddit-loading-spinner):remove()
+
+!Reddit Header
+reddit.com##body > shreddit-app > reddit-header-small
+reddit.com##body > a
+
+! Centers preview big image
+reddit.com##.dialog:style(align-items:unset!important;bottom:auto!important;)
+
+! iOS Need to Add to Excel Sheet
+||redditstatic.com/*/user-flair-*.js$script,domain=reddit.com
+||redditstatic.com/*/subreddit-right-rail-client-css-*.css$css,domain=reddit.com
+||redditstatic.com/*/shreddit-post-flair-*.js$script,domain=reddit.com
+||redditstatic.com/*/nsfw-bypassable-modal-client-css-*.css$css,domain=reddit.com
+||redditstatic.com/*/highlight-post-client-js-*.js$script,domain=reddit.com
+||redditstatic.com/*/community-highlights-client-css-*.css$css,domain=reddit.com
 
 reddit.com##+js(abort-current-script, achievements-events-client-js-[0-9a-z]+\.js$/)
 reddit.com##+js(abort-current-script, ad-event-tracker[0-9a-z]+\.js$/)
@@ -2744,4 +2762,3 @@ reddit.com##script[src*="/*/with-share-"]
 reddit.com##script[src*="/*/xpromo-"]
 reddit.com##script[src*="/*/zendesk-step-helper-"]
 reddit.com##script[src*="/*/zoomable-img-"]
-
