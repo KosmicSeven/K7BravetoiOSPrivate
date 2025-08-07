@@ -2763,3 +2763,8 @@ reddit.com##script[src*="/*/with-share-"]
 reddit.com##script[src*="/*/xpromo-"]
 reddit.com##script[src*="/*/zendesk-step-helper-"]
 reddit.com##script[src*="/*/zoomable-img-"]
+
+! Aug 7, 2025 https://www.reddit.com
+www.reddit.com##.xs\:mt-0.mb-2xs.mt-xs.xs\:-mb-\[2\.25rem\].xs\:-top-\[2\.25rem\].px-md.justify-between.xs\:items-end.items\:center.relative.flex
+www.reddit.com###main-content > div.flex.justify-between.flex-wrap.mb-xs.mt-xs
+
