@@ -2767,4 +2767,26 @@ reddit.com##script[src*="/*/zoomable-img-"]
 ! Aug 7, 2025 https://www.reddit.com
 www.reddit.com##.xs\:mt-0.mb-2xs.mt-xs.xs\:-mb-\[2\.25rem\].xs\:-top-\[2\.25rem\].px-md.justify-between.xs\:items-end.items\:center.relative.flex
 www.reddit.com###main-content > div.flex.justify-between.flex-wrap.mb-xs.mt-xs
+! Aug 8, 2025 http://192.168.99.220:9090
+192.168.99.220##.visible.dv-view > .dv-branch-node > .dv-separator-border.dv-horizontal.dv-split-view-container > .dv-view-container > div.visible.dv-view:nth-of-type(1)
+192.168.99.220##.css-pg3knk
+192.168.99.220##.css-1t6s810
+
+192.168.99.220###invoke-app-wrapper > div > div.css-s4ug9f > div > div > div > div > div > div.dv-view-container > div > div > div > div.dv-view-container > div:nth-child(2):style(left: 0px !important;)
+192.168.99.220###invoke-app-wrapper > div > div.css-s4ug9f > div > div > div > div > div > div.dv-view-container > div > div > div > div.dv-sash-container > div.dv-sash.dv-maximum:style(left: 10000px !important;)
+192.168.99.220###invoke-app-wrapper > div > div.css-s4ug9f > div > div > div > div > div > div.dv-view-container > div > div > div > div.dv-sash-container > div.dv-sash.dv-sash dv-enabled:style(left: 10000px !important;)
+192.168.99.220###invoke-app-wrapper > div > div.css-s4ug9f > div > div > div > div > div > div.dv-view-container > div > div > div > div.dv-sash-container > div.dv-sash.dv-maximum:style(width: 10000px !important;)
+192.168.99.220###invoke-app-wrapper > div > div.css-s4ug9f > div > div > div > div > div > div.dv-view-container > div > div > div > div.dv-sash-container > div.dv-sash.dv-sash dv-enabled:style(width: 10000px !important;)
+192.168.99.220###invoke-app-wrapper > div > div.css-s4ug9f > div > div > div > div > div > div.dv-view-container > div > div > div > div.dv-view-container > div:nth-child(2):style(width: -webkit-fill-available !important;)
+
+192.168.99.220##.css-ktcgow
+||192.168.99.220/assets/index-*.js
+192.168.99.220##div.visible.dv-view .dockview-theme-invoke > .dv-grid-view > .dv-branch-node > .dv-separator-border.dv-vertical.dv-split-view-container
+192.168.99.220##div.visible.dv-view:nth-of-type(3) > div > div > .dockview-theme-invoke > .dv-grid-view > .dv-branch-node
+
+192.168.99.220###invoke-app-wrapper > div > div.css-s4ug9f > div > div > div > div > div > div.dv-view-container > div > div > div > div.dv-view-container > div:nth-child(3)
+192.168.99.220###invoke-app-wrapper > div > div.css-s4ug9f > div > div > div > div > div > div.dv-view-container > div > div > div > div.dv-view-container > div:nth-child(1)
+192.168.99.220##.css-18pu13a
+192.168.99.220##.css-1unonvz
+
 
