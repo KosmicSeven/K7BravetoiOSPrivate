@@ -1,10 +1,3 @@
-! Title: uBlock filters
-! Expires: 5 days
-! Last modified: Mon, 16 Jun 2025 15:18:26 +0000
-! Diff-Path: ../patches/2025.6.16.1230.patch#ublock-filters
-! Diff-Expires: 317 minutes
-! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
-! *** uAssets:filters/filters.txt ***
 ! Sep 10, 2025 https://www.reddit.com
 ! www.reddit.com##.block.xs\:pb-0.pb-xl.xs\:max-w-\[316px\].xs\:w-\[316px\].w-full.min-w-0.right-sidebar
 ! www.reddit.com##.border-r-neutral-border.s\:border-r-sm.border-solid.border-0.m\:block.hidden.order-first.isolate.theme-rpl.left-sidebar
