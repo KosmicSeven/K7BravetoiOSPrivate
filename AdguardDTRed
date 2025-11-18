@@ -1,3 +1,18 @@
+![Adblock Plus 2.0]
+! Checksum: qyJd9nqvyOw7qbMp0rV8l2
+! Diff-Path: ../patches/4/4-s-1749951572-3600.patch
+! Title: AdguardDTRed
+! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
+! Version: 2.1.15.87
+! TimeUpdated: 2025-06-15T01:35:25+00:00
+! Expires: 5 days (update frequency)
+! Homepage: https://github.com/KosmicSeven/K7BravetoiOSPrivate
+! License: https://github.com/KosmicSeven/K7BravetoiOSPrivate/blob/master/LICENSE
+!
+!-------------------------------------------------------------------------------!
+!-------------- Common social trackers -----------------------------------------!
+!-------------------------------------------------------------------------------!
+!
 ! 2024-01-21 https://www.tiktok.com
 ||v16-webapp-prime.us.tiktok.com/video/tos/useast5/tos-useast5-pve-0068-tx/5e94f9305e694a07b2c38aff9d52c97e/?a=1988&ch=0&cr=3&dr=0&lr=unwatermarked&cd=0%7C0%7C0%7C&cv=1&br=3240&bt=1620&bti=ODszNWYuMDE6&cs=0&ds=6&ft=4KJMyMzm8Zmo0Isf.94jVRjLdpWrKsd.&mime_type=video_mp4&qs=0&rc=aGc5ZzQ0aTs6MzRmaTpoaUBpanQ5azM6ZnFtNzMzNzczM0A0NTQ2M2FiXzAxLi4tY14yYSMuX19ycjRvMmJgLS1kMTZzcw%3D%3D&btag=e00088000&expire=1705820001&l=20240121005309D9D0D2E8731C6831E4ED&ply_type=2&policy=2&signature=e146137b66dd388fa7702349536e8aaf&tk=tt_chain_token$media
 ||v16-webapp-prime.us.tiktok.com/video/tos/useast5/tos-useast5-pve-0068-tx/5e94f9305e694a07b2c38aff9d52c97e/?a=1988&ch=0&cr=3&dr=0&lr=unwatermarked&cd=0%7C0%7C0%7C&cv=1&br=3240&bt=1620&bti=ODszNWYuMDE6&cs=0&ds=6&ft=4KJMyMzm8Zmo0Isf.94jVRjLdpWrKsd.&mime_type=video_mp4&qs=0&rc=aGc5ZzQ0aTs6MzRmaTpoaUBpanQ5azM6ZnFtNzMzNzczM0A0NTQ2M2FiXzAxLi4tY14yYSMuX19ycjRvMmJgLS1kMTZzcw%3D%3D&btag=e00088000&expire=1705820001&l=20240121005309D9D0D2E8731C6831E4ED&ply_type=2&policy=2&signature=e146137b66dd388fa7702349536e8aaf&tk=tt_chain_token$media
