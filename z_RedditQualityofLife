@@ -66,3 +66,6 @@ reddit.com##div#right-sidebar-container:remove()
 
 ! Reddit: collapse grid to one column + center the feed
 reddit.com##.main-container:style(grid-template-columns: minmax(0, 756px) !important; justify-content: center !important;)
+
+reddit.com###right-sidebar-container
+reddit.com##.main-container:style(grid-template-columns: minmax(0, 756px) !important; justify-content: center !important;)
