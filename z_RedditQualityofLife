@@ -60,3 +60,9 @@ www.reddit.com##rpl-action-bar > div > svg:nth-child(3)
 www.reddit.com##rpl-action-bar > div > svg:nth-child(4)
 www.reddit.com##rpl-action-bar > div > svg:nth-child(5)
 www.reddit.com##rpl-action-bar > div > svg.text-neutral-border-weak.shrink-0.action-bar-share-divider
+
+! Reddit: remove right sidebar
+reddit.com##div#right-sidebar-container:remove()
+
+! Reddit: collapse grid to one column + center the feed
+reddit.com##.main-container:style(grid-template-columns: minmax(0, 756px) !important; justify-content: center !important;)
