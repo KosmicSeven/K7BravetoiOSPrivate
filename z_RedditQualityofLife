@@ -1,71 +1,27 @@
-! Jul 15, 2026 https://www.reddit.com
-www.reddit.com###right-sidebar-container
-www.reddit.com###left-sidebar-container
+! Reddit cleanup for iOS Orion
 
-! Jul 25, 2026 https://www.reddit.com
-www.reddit.com###sticky-comment-composer-wrapper
-www.reddit.com##.mt-2xs.items-center.flex
-
-! Jul 31, 2026 https://www.reddit.com
-www.reddit.com##.relative.h-lg.w-lg.justify-center.items-center.inline-flex
-
-
-www.reddit.com###right-sidebar-container:style(display: none !important)
-www.reddit.com##.main-container:style(grid-template-columns: minmax(0, 1fr) !important; max-width: 100% !important)
-www.reddit.com##.threadline-strip.cursor-pointer.z-\[1\].w-\[24px\].bottom-0.top-\[28px\].start-0.absolute
-www.reddit.com##.collapse-container:style(display: none !important)
-www.reddit.com##.ssr-thread-line:style(display: none !important)
-www.reddit.com##.branchline:style(display: none !important)
-www.reddit.com##.uncollapse-icon:style(display: none !important)
-
-www.reddit.com###comment-tree *::after:style(content: none !important; display: none !important)
-www.reddit.com###comment-tree *::before:style(content: none !important; display: none !important)
-
-www.reddit.com###left-sidebar-container:style(display: none !important)
-www.reddit.com##.grid-container:style(grid-template-columns: minmax(0, 1fr) !important)
-www.reddit.com###subgrid-container:style(grid-column: 1 / -1 !important)
-
-! hide the sidebar itself
-reddit.com###right-sidebar-container:style(display: none !important)
-
-! collapse the reserved column on the grid parent
-reddit.com##.subgrid-container:style(grid-template-columns: 1fr !important)
-
-! let the main column use the freed space
-reddit.com###main-content:style(max-width: none !important)
-
-! Aug 16, 2026 https://www.reddit.com
-www.reddit.com##.leading-\[1\.0625rem\].pt-\[2px\].gap-2xs.flex-nowrap.items-center.flex-row.flex-none.flex
-
-! Sep 9, 2026 https://www.youtube.com
-www.youtube.com##.ytLockupAttachmentsViewModelHost
-
-! Sep 22, 2026 https://thisvid.com
-thisvid.com##.private.thumb
-
-! Sep 22, 2026 https://www.instagram.com
-||scontent-atl3-1.cdninstagram.com/v/t51.71878-15/497774991_1021965789910796_8942640988448118174_n.jpg$image
-www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
-www.instagram.com##body > .xzkaem6.x1n2onr6
-
-! Sep 22, 2026 https://www.nytimes.com
-www.nytimes.com###gateway-content
-
-! Sep 23, 2026 https://www.reddit.com
-www.reddit.com##.relative.share-dropdown-menu > .py-xs.px-sm.inline-flex.button-plain.text-label-2.relative.font-semibold.h-xl.items-center.justify-center.flex-row.flex.border-sm.rpl-cab.button
-www.reddit.com##.repost-entry-dropdown .py-xs.px-sm.inline-flex.button-plain.text-label-2.relative.font-semibold.h-xl.items-center.justify-center.flex-row.flex.border-sm.rpl-cab.button
-www.reddit.com##rpl-action-bar > div > svg:nth-child(1)
-www.reddit.com##rpl-action-bar > div > svg:nth-child(2)
-www.reddit.com##rpl-action-bar > div > svg:nth-child(3)
-www.reddit.com##rpl-action-bar > div > svg:nth-child(4)
-www.reddit.com##rpl-action-bar > div > svg:nth-child(5)
-www.reddit.com##rpl-action-bar > div > svg.text-neutral-border-weak.shrink-0.action-bar-share-divider
-
-! Reddit: remove right sidebar
-reddit.com##div#right-sidebar-container:remove()
-
-! Reddit: collapse grid to one column + center the feed
-reddit.com##.main-container:style(grid-template-columns: minmax(0, 756px) !important; justify-content: center !important;)
-
+! hide elements
 reddit.com###right-sidebar-container
-reddit.com##.main-container:style(grid-template-columns: minmax(0, 756px) !important; justify-content: center !important;)
+reddit.com###left-sidebar-container
+reddit.com###sticky-comment-composer-wrapper
+reddit.com##.mt-2xs.items-center.flex
+reddit.com##.relative.h-lg.w-lg.justify-center.items-center.inline-flex
+reddit.com##.threadline-strip.cursor-pointer.z-\[1\].w-\[24px\].bottom-0.top-\[28px\].start-0.absolute
+reddit.com##.collapse-container
+reddit.com##.ssr-thread-line
+reddit.com##.branchline
+reddit.com##.uncollapse-icon
+reddit.com##.leading-\[1\.0625rem\].pt-\[2px\].gap-2xs.flex-nowrap.items-center.flex-row.flex-none.flex
+reddit.com##.relative.share-dropdown-menu > .py-xs.px-sm.inline-flex.button-plain.text-label-2.relative.font-semibold.h-xl.items-center.justify-center.flex-row.flex.border-sm.rpl-cab.button
+reddit.com##.repost-entry-dropdown .py-xs.px-sm.inline-flex.button-plain.text-label-2.relative.font-semibold.h-xl.items-center.justify-center.flex-row.flex.border-sm.rpl-cab.button
+reddit.com##rpl-action-bar > div > svg:nth-child(-n+5)
+reddit.com##rpl-action-bar > div > svg.text-neutral-border-weak.shrink-0.action-bar-share-divider
+
+! layout + thread lines
+reddit.com###comment-tree *::before:style(content: none !important; display: none !important)
+reddit.com###comment-tree *::after:style(content: none !important; display: none !important)
+reddit.com##.main-container:style(grid-template-columns: minmax(0, 1fr) !important; max-width: 100% !important)
+reddit.com##.grid-container:style(grid-template-columns: minmax(0, 1fr) !important)
+reddit.com###subgrid-container:style(grid-column: 1 / -1 !important)
+reddit.com##.subgrid-container:style(grid-template-columns: 1fr !important)
+reddit.com###main-content:style(max-width: none !important)
